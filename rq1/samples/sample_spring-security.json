@@ -1,0 +1,1330 @@
+{
+    "spring-security": {
+        "51dcafcde1": [
+            {
+                "className": "org.springframework.security.samples.config.SecurityConfig",
+                "exceptionalChanges": []
+            }
+        ],
+        "418c3d6808": [
+            {
+                "className": "org.springframework.security.authentication.ProviderManager",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ProviderManager.authenticate",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Authentication"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "core/src/main/java/org/springframework/security/authentication/ProviderManager.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "CouplingDispersion": 0.625,
+                                "MaxNesting": 2.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfAccessedVariables": 17.0,
+                                "ChangingClasses": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "CyclomaticComplexity": 15.0,
+                                "ExceptionalLOC": 84.0,
+                                "MethodLinesOfCode": 42.0,
+                                "ChangingMethods": 17.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfCatchStatements": 4.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.authentication.ProviderManager.authenticate",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.749555862613547",
+                                    "startingLine": 145,
+                                    "endingLine": 253
+                                },
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 145,
+                                    "endingLine": 253
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "8d80166aaf": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.Jwt",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.ldap.server.ApacheDSContainer",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "OpenSamlAuthenticationRequestFactory.sign",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Credential",
+                                "String",
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationRequestFactory.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 4.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MethodLinesOfCode": 20.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ExceptionalLOC": 20.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CyclomaticComplexity": 4.0,
+                                "CouplingIntensity": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "MaxNesting": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory.signQueryParameters",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 257,
+                                    "endingLine": 286
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "OpenSamlAuthenticationRequestFactory.signQueryParameters",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Credential",
+                                "String",
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationRequestFactory.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 4.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MethodLinesOfCode": 20.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ExceptionalLOC": 20.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CyclomaticComplexity": 4.0,
+                                "CouplingIntensity": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "MaxNesting": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory.signQueryParameters",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 257,
+                                    "endingLine": 286
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.web.authentication.rememberme.AbstractRememberMeServices",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "AbstractRememberMeServices.autoLogin",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "HttpServletRequest",
+                                "HttpServletResponse"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "web/src/main/java/org/springframework/security/web/authentication/rememberme/AbstractRememberMeServices.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "CouplingDispersion": 0.3333333333333333,
+                                "NumberOfTryStatements": 1.0,
+                                "MethodLinesOfCode": 30.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ExceptionalLOC": 30.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CyclomaticComplexity": 8.0,
+                                "CouplingIntensity": 6.0,
+                                "ChangingMethods": 18.0,
+                                "NumberOfCatchStatements": 5.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 2.0,
+                                "NumberOfAccessedVariables": 12.0,
+                                "MaxNesting": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.web.authentication.rememberme.AbstractRememberMeServices.autoLogin",
+                            "smells": [
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 109,
+                                    "endingLine": 163
+                                }
+                            ],
+                            "kind": "public final method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistration",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.authentication.ProviderManager",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ProviderManager.authenticate",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Authentication"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "core/src/main/java/org/springframework/security/authentication/ProviderManager.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "CouplingDispersion": 0.625,
+                                "NumberOfTryStatements": 2.0,
+                                "MethodLinesOfCode": 42.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "ExceptionalLOC": 84.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "CyclomaticComplexity": 15.0,
+                                "CouplingIntensity": 8.0,
+                                "ChangingMethods": 17.0,
+                                "NumberOfCatchStatements": 4.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "ChangingClasses": 2.0,
+                                "NumberOfAccessedVariables": 17.0,
+                                "MaxNesting": 2.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.authentication.ProviderManager.authenticate",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.749481890851647",
+                                    "startingLine": 145,
+                                    "endingLine": 253
+                                },
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 145,
+                                    "endingLine": 253
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "8f8329583a": [
+            {
+                "className": "org.springframework.security.access.hierarchicalroles.RoleHierarchyImpl",
+                "exceptionalChanges": []
+            }
+        ],
+        "0fa339f75": [
+            {
+                "className": "org.springframework.security.ldap.server.ApacheDSContainer",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ApacheDSContainer.start",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "ldap/src/main/java/org/springframework/security/ldap/server/ApacheDSContainer.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 34.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "NumberOfCatchStatements": 5.0,
+                                "ChangingMethods": 1.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfAccessedVariables": 18.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingIntensity": 2.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfTryStatements": 4.0,
+                                "NumberOfThrowStatements": 3.0,
+                                "ParameterCount": 0.0,
+                                "CyclomaticComplexity": 8.0,
+                                "ExceptionalLOC": 102.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfFinallyStatements": 0.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.ldap.server.ApacheDSContainer.start",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.655003286646059",
+                                    "startingLine": 240,
+                                    "endingLine": 291
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "554ef627f": [
+            {
+                "className": "org.springframework.security.ldap.server.ApacheDSContainer",
+                "exceptionalChanges": []
+            }
+        ],
+        "05caf3d8f": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NimbusJwtDecoder.createJwt",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String",
+                                "JWT"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-jose/src/main/java/org/springframework/security/oauth2/jwt/NimbusJwtDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfAccessedVariables": 12.0,
+                                "ParameterCount": 2.0,
+                                "MaxCallChain": 4.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MethodLinesOfCode": 16.0,
+                                "CyclomaticComplexity": 9.0,
+                                "CouplingDispersion": 0.5,
+                                "ExceptionalLOC": 16.0,
+                                "ChangingClasses": 1.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 4.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfThrowStatements": 4.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder.createJwt",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 137,
+                                    "endingLine": 162
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "0c3754c811": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NimbusJwtDecoder.createJwt",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String",
+                                "JWT"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-jose/src/main/java/org/springframework/security/oauth2/jwt/NimbusJwtDecoder.java"
+                            },
+                            "metricsValues": {
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxNesting": 2.0,
+                                "CouplingIntensity": 4.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfThrowStatements": 5.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 18.0,
+                                "CyclomaticComplexity": 10.0,
+                                "CouplingDispersion": 0.5,
+                                "MethodLinesOfCode": 18.0,
+                                "MaxCallChain": 4.0,
+                                "NumberOfCatchStatements": 3.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder.createJwt",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 138,
+                                    "endingLine": 165
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NimbusReactiveJwtDecoder.createJwt",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "JWT",
+                                "JWTClaimsSet"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-jose/src/main/java/org/springframework/security/oauth2/jwt/NimbusReactiveJwtDecoder.java"
+                            },
+                            "metricsValues": {
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxNesting": 1.0,
+                                "CouplingIntensity": 1.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfAccessedVariables": 6.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 9.0,
+                                "CyclomaticComplexity": 4.0,
+                                "CouplingDispersion": 1.0,
+                                "MethodLinesOfCode": 9.0,
+                                "MaxCallChain": 5.0,
+                                "NumberOfCatchStatements": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder.createJwt",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 5.0",
+                                    "startingLine": 165,
+                                    "endingLine": 177
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "NimbusReactiveJwtDecoder.decode",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "JWT"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-jose/src/main/java/org/springframework/security/oauth2/jwt/NimbusReactiveJwtDecoder.java"
+                            },
+                            "metricsValues": {
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxNesting": 1.0,
+                                "CouplingIntensity": 0.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfAccessedVariables": 4.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 10.0,
+                                "CyclomaticComplexity": 6.0,
+                                "CouplingDispersion": 0.0,
+                                "MethodLinesOfCode": 10.0,
+                                "MaxCallChain": 4.0,
+                                "NumberOfCatchStatements": 2.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder.decode",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 152,
+                                    "endingLine": 163
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "290786438c": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder.JwkSetUriReactiveJwtDecoderBuilder",
+                "exceptionalChanges": []
+            }
+        ],
+        "10aa9743ed": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder",
+                "exceptionalChanges": []
+            }
+        ],
+        "366146ff80": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.ReactiveJwtDecoders",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.Jwt",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder.JwkSetUriReactiveJwtDecoderBuilder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "JwtDecoderProviderConfigurationUtils.getSignatureAlgorithms",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "JWKSource<SecurityContext>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-jose/src/main/java/org/springframework/security/oauth2/jwt/JwtDecoderProviderConfigurationUtils.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 1.0,
+                                "ExceptionalLOC": 21.0,
+                                "CouplingIntensity": 1.0,
+                                "MaxNesting": 4.0,
+                                "ChangingClasses": 3.0,
+                                "MethodLinesOfCode": 21.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 10.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingMethods": 4.0,
+                                "CouplingDispersion": 1.0,
+                                "MaxCallChain": 4.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getSignatureAlgorithms",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 85,
+                                    "endingLine": 117
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.JwtDecoders",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder",
+                "exceptionalChanges": []
+            }
+        ],
+        "9133cc24e4": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusJwtDecoder",
+                "exceptionalChanges": []
+            }
+        ],
+        "55e8df1efe": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder",
+                "exceptionalChanges": []
+            }
+        ],
+        "a2f2e9ac8d": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.NimbusReactiveJwtDecoder",
+                "exceptionalChanges": []
+            }
+        ],
+        "1739ef8d3c": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.Jwt",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.JwtDecoders",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.ReactiveJwtDecoders",
+                "exceptionalChanges": []
+            }
+        ],
+        "505882c944": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.Jwt",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.JwtDecoders",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.ReactiveJwtDecoders",
+                "exceptionalChanges": []
+            }
+        ],
+        "58ca81d500": [
+            {
+                "className": "org.springframework.security.oauth2.jwt.Jwt",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "704f98688d": [
+            {
+                "className": "org.springframework.security.oauth2.core.http.converter.OAuth2AccessTokenResponseHttpMessageConverter",
+                "exceptionalChanges": []
+            }
+        ],
+        "387f765595": [
+            {
+                "className": "org.springframework.security.oauth2.server.resource.authentication.JwtReactiveAuthenticationManager",
+                "exceptionalChanges": []
+            }
+        ],
+        "e584207a85": [
+            {
+                "className": "org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BearerTokenAuthenticationFilter.doFilterInternal",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "HttpServletRequest",
+                                "HttpServletResponse",
+                                "FilterChain"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-resource-server/src/main/java/org/springframework/security/oauth2/server/resource/web/BearerTokenAuthenticationFilter.java"
+                            },
+                            "metricsValues": {
+                                "ParameterCount": 3.0,
+                                "CouplingDispersion": 0.7777777777777778,
+                                "ExceptionalLOC": 52.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfAccessedVariables": 16.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingMethods": 0.0,
+                                "ThrownExceptionTypesCount": 2.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingClasses": 0.0,
+                                "MethodLinesOfCode": 26.0,
+                                "CouplingIntensity": 9.0,
+                                "CyclomaticComplexity": 5.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter.doFilterInternal",
+                            "smells": [
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 88,
+                                    "endingLine": 140
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "f9747e6591": [
+            {
+                "className": "org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BearerTokenAuthenticationFilter.doFilterInternal",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "HttpServletRequest",
+                                "HttpServletResponse",
+                                "FilterChain"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-resource-server/src/main/java/org/springframework/security/oauth2/server/resource/web/BearerTokenAuthenticationFilter.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 0.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 2.0,
+                                "CouplingDispersion": 0.7777777777777778,
+                                "CyclomaticComplexity": 5.0,
+                                "ChangingMethods": 0.0,
+                                "MethodLinesOfCode": 26.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ExceptionalLOC": 52.0,
+                                "CouplingIntensity": 9.0,
+                                "NumberOfAccessedVariables": 16.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 2.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter.doFilterInternal",
+                            "smells": [
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 88,
+                                    "endingLine": 140
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "31f310fd22": [
+            {
+                "className": "org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter",
+                "exceptionalChanges": []
+            }
+        ],
+        "7ded671858": [
+            {
+                "className": "org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter",
+                "exceptionalChanges": []
+            }
+        ],
+        "796859333f": [
+            {
+                "className": "org.springframework.security.web.authentication.www.BasicAuthenticationFilter",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BasicAuthenticationFilter.doFilterInternal",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "HttpServletRequest",
+                                "HttpServletResponse",
+                                "FilterChain"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "web/src/main/java/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 0.0,
+                                "MethodLinesOfCode": 29.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "MaxNesting": 2.0,
+                                "ParameterCount": 3.0,
+                                "CouplingIntensity": 12.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "NumberOfCatchStatements": 1.0,
+                                "CyclomaticComplexity": 9.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ExceptionalLOC": 29.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal",
+                            "smells": [
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 146,
+                                    "endingLine": 204
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "02d1516c56": [
+            {
+                "className": "org.springframework.security.web.authentication.www.BasicAuthenticationFilter",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BasicAuthenticationFilter.doFilterInternal",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "HttpServletRequest",
+                                "HttpServletResponse",
+                                "FilterChain"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "web/src/main/java/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 27.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "MaxCallChain": 2.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfAccessedVariables": 12.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 7.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingIntensity": 12.0,
+                                "MaxNesting": 2.0,
+                                "ThrownExceptionTypesCount": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ExceptionalLOC": 27.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal",
+                            "smells": [
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 141,
+                                    "endingLine": 179
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "ff58ac836e": [
+            {
+                "className": "org.springframework.security.web.authentication.rememberme.AbstractRememberMeServices",
+                "exceptionalChanges": []
+            }
+        ],
+        "c8cc9717c9": [
+            {
+                "className": "org.springframework.security.oauth2.client.endpoint.DefaultPasswordTokenResponseClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "DefaultPasswordTokenResponseClient.getTokenResponse",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "OAuth2PasswordGrantRequest"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-client/src/main/java/org/springframework/security/oauth2/client/endpoint/DefaultPasswordTokenResponseClient.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 3.0,
+                                "MaxCallChain": 4.0,
+                                "ChangingMethods": 3.0,
+                                "ParameterCount": 1.0,
+                                "CouplingDispersion": 0.7142857142857143,
+                                "NumberOfAccessedVariables": 9.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "MethodLinesOfCode": 15.0,
+                                "CouplingIntensity": 7.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ExceptionalLOC": 15.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.client.endpoint.DefaultPasswordTokenResponseClient.getTokenResponse",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 67,
+                                    "endingLine": 95
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "7a715f9086": [
+            {
+                "className": "org.springframework.security.oauth2.client.endpoint.DefaultPasswordTokenResponseClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "DefaultPasswordTokenResponseClient.getTokenResponse",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "OAuth2PasswordGrantRequest"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "oauth2/oauth2-client/src/main/java/org/springframework/security/oauth2/client/endpoint/DefaultPasswordTokenResponseClient.java"
+                            },
+                            "metricsValues": {
+                                "ParameterCount": 1.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "CouplingDispersion": 0.75,
+                                "MaxNesting": 1.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 2.0,
+                                "MethodLinesOfCode": 9.0,
+                                "ExceptionalLOC": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingMethods": 3.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 4.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfAccessedVariables": 5.0,
+                                "ChangingClasses": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.oauth2.client.endpoint.DefaultPasswordTokenResponseClient.getTokenResponse",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 73,
+                                    "endingLine": 88
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "d472e99528": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "OpenSamlAuthenticationProvider.validateSaml2Response",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Saml2AuthenticationToken",
+                                "String",
+                                "Response"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationProvider.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 16.0,
+                                "CouplingIntensity": 5.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfThrowStatements": 4.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 2.0,
+                                "ChangingMethods": 1.0,
+                                "ExceptionalLOC": 62.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 31.0,
+                                "CyclomaticComplexity": 12.0,
+                                "ParameterCount": 3.0,
+                                "CouplingDispersion": 0.4,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfTryStatements": 2.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider.validateSaml2Response",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.5505851471070695",
+                                    "startingLine": 222,
+                                    "endingLine": 270
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "OpenSamlAuthenticationProvider.validateAssertion",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String",
+                                "Assertion",
+                                "Saml2AuthenticationToken",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationProvider.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 15.0,
+                                "CouplingIntensity": 6.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfThrowStatements": 3.0,
+                                "MaxCallChain": 3.0,
+                                "MaxNesting": 2.0,
+                                "ChangingMethods": 1.0,
+                                "ExceptionalLOC": 25.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 25.0,
+                                "CyclomaticComplexity": 8.0,
+                                "ParameterCount": 4.0,
+                                "CouplingDispersion": 0.3333333333333333,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatements": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider.validateAssertion",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.5716941922782366",
+                                    "startingLine": 306,
+                                    "endingLine": 350
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "e6d40e8280": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "OpenSamlAuthenticationRequestFactory.createAuthenticationRequest",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Saml2AuthenticationRequest"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationRequestFactory.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 0.0,
+                                "CyclomaticComplexity": 1.0,
+                                "MaxNesting": 0.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 5.0,
+                                "CouplingDispersion": 0.3333333333333333,
+                                "MethodLinesOfCode": 15.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 1.0,
+                                "ChangingClasses": 0.0,
+                                "CouplingIntensity": 6.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "ChangingMethods": 0.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory.createAuthenticationRequest",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.springframework.security.saml2.provider.service.authentication.Saml2AuthenticationRequest > 4",
+                                    "startingLine": 36,
+                                    "endingLine": 56
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "OpenSamlAuthenticationProvider.validateSaml2Response",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Saml2AuthenticationToken",
+                                "String",
+                                "Response"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationProvider.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 2.0,
+                                "CyclomaticComplexity": 12.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 16.0,
+                                "CouplingDispersion": 0.4,
+                                "MethodLinesOfCode": 31.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 3.0,
+                                "ChangingClasses": 1.0,
+                                "CouplingIntensity": 5.0,
+                                "NumberOfThrowStatements": 4.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "ExceptionalLOC": 62.0,
+                                "ChangingMethods": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider.validateSaml2Response",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.550990342118209",
+                                    "startingLine": 221,
+                                    "endingLine": 269
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "OpenSamlAuthenticationProvider.validateAssertion",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String",
+                                "Assertion",
+                                "Saml2AuthenticationToken",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationProvider.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 1.0,
+                                "CyclomaticComplexity": 8.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 15.0,
+                                "CouplingDispersion": 0.3333333333333333,
+                                "MethodLinesOfCode": 25.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 4.0,
+                                "ChangingClasses": 1.0,
+                                "CouplingIntensity": 6.0,
+                                "NumberOfThrowStatements": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 25.0,
+                                "ChangingMethods": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider.validateAssertion",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.5723249849948275",
+                                    "startingLine": 305,
+                                    "endingLine": 349
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "0c696dd58": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": []
+            }
+        ],
+        "e9130489a6": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": []
+            }
+        ],
+        "535ae3e27d": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": []
+            }
+        ],
+        "d0581c9a26": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": []
+            }
+        ],
+        "2276fcf34a": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": []
+            }
+        ],
+        "d9d8253603": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationProvider",
+                "exceptionalChanges": []
+            }
+        ],
+        "5779121da6": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "OpenSamlAuthenticationRequestFactory.signQueryParameters",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Credential",
+                                "String",
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "saml2/saml2-service-provider/src/main/java/org/springframework/security/saml2/provider/service/authentication/OpenSamlAuthenticationRequestFactory.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 20.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "MaxCallChain": 4.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ExceptionalLOC": 20.0,
+                                "CouplingIntensity": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 1.0,
+                                "CyclomaticComplexity": 4.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 1.0
+                            },
+                            "fullyQualifiedName": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory.signQueryParameters",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 271,
+                                    "endingLine": 315
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "56928f61f0": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.authentication.OpenSamlAuthenticationRequestFactory",
+                "exceptionalChanges": []
+            }
+        ],
+        "9a11cc84ad": [
+            {
+                "className": "org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistration",
+                "exceptionalChanges": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,1921 @@
+{
+    "fresco": {
+        "a08f9e76f": [
+            {
+                "className": "com.facebook.fresco.animation.bitmap.preparation.DefaultBitmapFramePreparer.FrameDecodeRunnable",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "FrameDecodeRunnable.prepareFrameAndCache",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "int",
+                                "int"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "animated-drawable/src/main/java/com/facebook/fresco/animation/bitmap/preparation/DefaultBitmapFramePreparer.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 26.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0,
+                                "MaxCallChain": 2.0,
+                                "CouplingIntensity": 8.0,
+                                "CyclomaticComplexity": 7.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 2.0,
+                                "ChangingMethods": 2.0,
+                                "ExceptionalLOC": 26.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingDispersion": 0.75,
+                                "NumberOfAccessedVariables": 14.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "MaxNesting": 1.0
+                            },
+                            "fullyQualifiedName": "com.facebook.fresco.animation.bitmap.preparation.DefaultBitmapFramePreparer.FrameDecodeRunnable.prepareFrameAndCache",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.fresco.animation.backend.AnimationBackend > 4",
+                                    "startingLine": 124,
+                                    "endingLine": 171
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.fresco.animation.bitmap.preparation.DefaultBitmapFramePreparer",
+                "exceptionalChanges": []
+            }
+        ],
+        "84cede18c": [
+            {
+                "className": "com.facebook.drawee.backends.pipeline.Fresco",
+                "exceptionalChanges": []
+            }
+        ],
+        "aef3790d3": [
+            {
+                "className": "com.facebook.drawee.backends.pipeline.Fresco",
+                "exceptionalChanges": []
+            }
+        ],
+        "00c035e61": [
+            {
+                "className": "com.facebook.drawee.backends.pipeline.Fresco",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "Fresco.initialize",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Context",
+                                "ImagePipelineConfig",
+                                "DraweeConfig",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "drawee-backends/drawee-pipeline/src/main/java/com/facebook/drawee/backends/pipeline/Fresco.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "CouplingIntensity": 9.0,
+                                "NumberOfCatchStatements": 4.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 33.0,
+                                "MethodLinesOfCode": 33.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingDispersion": 0.5555555555555556,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 2.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ParameterCount": 4.0,
+                                "CyclomaticComplexity": 14.0,
+                                "ChangingClasses": 2.0
+                            },
+                            "fullyQualifiedName": "com.facebook.drawee.backends.pipeline.Fresco.initialize",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 8",
+                                    "startingLine": 57,
+                                    "endingLine": 114
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.949698405859525",
+                                    "startingLine": 57,
+                                    "endingLine": 114
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 1.0131408875484686",
+                                    "startingLine": 57,
+                                    "endingLine": 114
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 57,
+                                    "endingLine": 114
+                                }
+                            ],
+                            "kind": "public static method"
+                        }
+                    },
+                    {
+                        "changedMethod": "Fresco.initialize",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Context",
+                                "DraweeConfig"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "drawee-backends/drawee-pipeline/src/main/java/com/facebook/drawee/backends/pipeline/Fresco.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfAccessedVariables": 3.0,
+                                "CouplingIntensity": 4.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "MethodLinesOfCode": 8.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatements": 0.0,
+                                "ParameterCount": 2.0,
+                                "CyclomaticComplexity": 3.0,
+                                "ChangingClasses": 1.0
+                            },
+                            "fullyQualifiedName": "com.facebook.drawee.backends.pipeline.Fresco.initializeDrawee",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 4",
+                                    "startingLine": 124,
+                                    "endingLine": 135
+                                }
+                            ],
+                            "kind": "private static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "c62a93420": [
+            {
+                "className": "com.facebook.drawee.backends.pipeline.Fresco",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "Fresco.initialize",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Context",
+                                "ImagePipelineConfig",
+                                "DraweeConfig",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "drawee-backends/drawee-pipeline/src/main/java/com/facebook/drawee/backends/pipeline/Fresco.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "CyclomaticComplexity": 14.0,
+                                "ChangingClasses": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 33.0,
+                                "CouplingDispersion": 0.625,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfCatchStatements": 4.0,
+                                "ChangingMethods": 2.0,
+                                "ParameterCount": 4.0,
+                                "MethodLinesOfCode": 33.0
+                            },
+                            "fullyQualifiedName": "com.facebook.drawee.backends.pipeline.Fresco.initialize",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 8",
+                                    "startingLine": 57,
+                                    "endingLine": 114
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.960073181231205",
+                                    "startingLine": 57,
+                                    "endingLine": 114
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 1.013990529487734",
+                                    "startingLine": 57,
+                                    "endingLine": 114
+                                }
+                            ],
+                            "kind": "public static method"
+                        }
+                    },
+                    {
+                        "changedMethod": "Fresco.initialize",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Context",
+                                "DraweeConfig"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "drawee-backends/drawee-pipeline/src/main/java/com/facebook/drawee/backends/pipeline/Fresco.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 1.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 3.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingIntensity": 4.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 3.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ParameterCount": 2.0,
+                                "MethodLinesOfCode": 8.0
+                            },
+                            "fullyQualifiedName": "com.facebook.drawee.backends.pipeline.Fresco.initializeDrawee",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 4",
+                                    "startingLine": 116,
+                                    "endingLine": 127
+                                }
+                            ],
+                            "kind": "private static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "03077e8da": [
+            {
+                "className": "com.facebook.imagepipeline.memory.PoolFactory",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "PoolFactory.getNativeMemoryChunkPool",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/memory/PoolFactory.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MethodLinesOfCode": 26.0,
+                                "CyclomaticComplexity": 7.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 5.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ParameterCount": 0.0,
+                                "ChangingMethods": 1.0,
+                                "CouplingIntensity": 4.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 26.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.memory.PoolFactory.getNativeMemoryChunkPool",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.common.logging.FLog > 5",
+                                    "startingLine": 133,
+                                    "endingLine": 165
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "6a6631a74": [
+            {
+                "className": "com.facebook.imagepipeline.memory.PoolFactory",
+                "exceptionalChanges": []
+            }
+        ],
+        "4e0e449fa": [
+            {
+                "className": "com.facebook.imagepipeline.memory.PoolFactory",
+                "exceptionalChanges": []
+            }
+        ],
+        "7d67c7ffa": [
+            {
+                "className": "com.facebook.imagepipeline.core.ImagePipeline",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ImagePipeline.submitFetchRequest",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Producer<CloseableReference<T>>",
+                                "ImageRequest",
+                                "ImageRequest.RequestLevel",
+                                "Object",
+                                "RequestListener"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/core/ImagePipeline.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "ParameterCount": 5.0,
+                                "CouplingDispersion": 0.5384615384615384,
+                                "CyclomaticComplexity": 4.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ExceptionalLOC": 13.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "MethodLinesOfCode": 13.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingIntensity": 13.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.core.ImagePipeline.submitFetchRequest",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 4",
+                                    "startingLine": 665,
+                                    "endingLine": 701
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.952516233766235",
+                                    "startingLine": 665,
+                                    "endingLine": 701
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ImagePipeline.submitFetchRequest",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Producer<CloseableReference<T>>",
+                                "SettableProducerContext",
+                                "RequestListener"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/core/ImagePipeline.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "ParameterCount": 3.0,
+                                "CouplingDispersion": 0.6,
+                                "CyclomaticComplexity": 4.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ExceptionalLOC": 9.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 4.0,
+                                "MethodLinesOfCode": 9.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingIntensity": 5.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.core.ImagePipeline.submitFetchRequest",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 4",
+                                    "startingLine": 703,
+                                    "endingLine": 720
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "7e29e1ad0": [
+            {
+                "className": "com.facebook.imagepipeline.core.ImagePipeline",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ImagePipeline.prefetchToBitmapCache",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ImageRequest",
+                                "Object",
+                                "RequestListener"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/core/ImagePipeline.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 1.0,
+                                "ChangingClasses": 2.0,
+                                "MethodLinesOfCode": 16.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 5.0,
+                                "ChangingMethods": 2.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "ExceptionalLOC": 16.0,
+                                "CouplingIntensity": 9.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.core.ImagePipeline.prefetchToBitmapCache",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 4",
+                                    "startingLine": 407,
+                                    "endingLine": 443
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ImagePipeline.prefetchToEncodedCache",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ImageRequest",
+                                "Object",
+                                "Priority",
+                                "RequestListener"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/core/ImagePipeline.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 1.0,
+                                "ChangingClasses": 1.0,
+                                "MethodLinesOfCode": 14.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 5.0,
+                                "ChangingMethods": 2.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "CouplingDispersion": 0.7142857142857143,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 4.0,
+                                "NumberOfAccessedVariables": 10.0,
+                                "ExceptionalLOC": 14.0,
+                                "CouplingIntensity": 7.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.core.ImagePipeline.prefetchToEncodedCache",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 4",
+                                    "startingLine": 534,
+                                    "endingLine": 565
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 1.0151417525773259",
+                                    "startingLine": 534,
+                                    "endingLine": 565
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "4a64df009": [
+            {
+                "className": "com.facebook.imagepipeline.platform.ArtDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ArtDecoder.decodeStaticImageFromStream",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "InputStream",
+                                "BitmapFactory.Options",
+                                "Rect"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/ArtDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 3.0,
+                                "ChangingMethods": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 19.0,
+                                "NumberOfThrowStatements": 5.0,
+                                "MaxNesting": 2.0,
+                                "ParameterCount": 3.0,
+                                "CyclomaticComplexity": 13.0,
+                                "CouplingDispersion": 0.8571428571428571,
+                                "NumberOfCatchStatements": 4.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 50.0,
+                                "CouplingIntensity": 7.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfFinallyStatements": 2.0,
+                                "ExceptionalLOC": 50.0,
+                                "MaxCallChain": 2.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.ArtDecoder.decodeStaticImageFromStream",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.memory.BasePool<com.facebook.imagepipeline.memory.Bitmap> > 4",
+                                    "startingLine": 138,
+                                    "endingLine": 211
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.972586928293184",
+                                    "startingLine": 138,
+                                    "endingLine": 211
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "f15584ff5": [
+            {
+                "className": "com.facebook.imagepipeline.cache.BufferedDiskCache",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BufferedDiskCache.put",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "CacheKey",
+                                "EncodedImage"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/cache/BufferedDiskCache.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 2.0,
+                                "CouplingDispersion": 0.5833333333333334,
+                                "ParameterCount": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatements": 3.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 23.0,
+                                "ExceptionalLOC": 46.0,
+                                "ChangingMethods": 7.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 2.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 2.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "CouplingIntensity": 12.0,
+                                "ChangingClasses": 3.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.cache.BufferedDiskCache.put",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.systrace.FrescoSystrace > 4",
+                                    "startingLine": 226,
+                                    "endingLine": 271
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "dc7c20970": [
+            {
+                "className": "com.facebook.imagepipeline.cache.BufferedDiskCache",
+                "exceptionalChanges": []
+            }
+        ],
+        "cc75c37e": [
+            {
+                "className": "com.facebook.cache.disk.DiskStorageCache",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "DiskStorageCache.getResource",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "CacheKey"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline-base/src/main/java/com/facebook/cache/disk/DiskStorageCache.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 26.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.45454545454545453,
+                                "NumberOfThrowStatements": 0.0,
+                                "ParameterCount": 1.0,
+                                "ChangingMethods": 5.0,
+                                "CouplingIntensity": 11.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CyclomaticComplexity": 6.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfAccessedVariables": 14.0,
+                                "ExceptionalLOC": 26.0
+                            },
+                            "fullyQualifiedName": "com.facebook.cache.disk.DiskStorageCache.getResource",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.cache.disk.SettableCacheEvent > 5",
+                                    "startingLine": 233,
+                                    "endingLine": 276
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 11.0, CDISP = 0.45454545454545453, CC > 1.0",
+                                    "startingLine": 233,
+                                    "endingLine": 276
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DiskStorageCache.probe",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "CacheKey"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline-base/src/main/java/com/facebook/cache/disk/DiskStorageCache.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 15.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "NumberOfThrowStatements": 0.0,
+                                "ParameterCount": 1.0,
+                                "ChangingMethods": 2.0,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 4.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfAccessedVariables": 10.0,
+                                "ExceptionalLOC": 15.0
+                            },
+                            "fullyQualifiedName": "com.facebook.cache.disk.DiskStorageCache.probe",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.cache.disk.SettableCacheEvent > 5",
+                                    "startingLine": 278,
+                                    "endingLine": 309
+                                },
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 278,
+                                    "endingLine": 309
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.imagepipeline.cache.BufferedDiskCache",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BufferedDiskCache.getAsync",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "CacheKey",
+                                "AtomicBoolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/cache/BufferedDiskCache.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 2.0,
+                                "MethodLinesOfCode": 39.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.5714285714285714,
+                                "NumberOfThrowStatements": 2.0,
+                                "ParameterCount": 2.0,
+                                "ChangingMethods": 1.0,
+                                "CouplingIntensity": 14.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 4.0,
+                                "CyclomaticComplexity": 12.0,
+                                "NumberOfFinallyStatements": 2.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "ExceptionalLOC": 78.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.cache.BufferedDiskCache.getAsync",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.common.logging.FLog > 4",
+                                    "startingLine": 172,
+                                    "endingLine": 232
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.938737852134338",
+                                    "startingLine": 172,
+                                    "endingLine": 232
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 172,
+                                    "endingLine": 232
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.fresco.samples.showcase.settings.SettingsFragment.UriOverrideDialog",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "UriOverrideDialog.onClick",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "DialogInterface",
+                                "int"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "samples/showcase/src/main/java/com/facebook/fresco/samples/showcase/settings/SettingsFragment.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 18.0,
+                                "ChangingClasses": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ParameterCount": 2.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingIntensity": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 4.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CyclomaticComplexity": 6.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "ExceptionalLOC": 18.0
+                            },
+                            "fullyQualifiedName": "com.facebook.fresco.samples.showcase.settings.SettingsFragment.UriOverrideDialog.onClick",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 214,
+                                    "endingLine": 243
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.imagepipeline.producers.DecodeProducer.ProgressiveDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ProgressiveDecoder.doDecode",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "int"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/producers/DecodeProducer.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0,
+                                "MethodLinesOfCode": 46.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.39285714285714285,
+                                "NumberOfThrowStatements": 1.0,
+                                "ParameterCount": 2.0,
+                                "ChangingMethods": 1.0,
+                                "CouplingIntensity": 28.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfTryStatements": 3.0,
+                                "CyclomaticComplexity": 10.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfAccessedVariables": 37.0,
+                                "ExceptionalLOC": 46.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.producers.DecodeProducer.ProgressiveDecoder.doDecode",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.image.EncodedImage > 11",
+                                    "startingLine": 243,
+                                    "endingLine": 335
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.938737852134338",
+                                    "startingLine": 243,
+                                    "endingLine": 335
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.imagepipeline.producers.DecodeProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "3f581099a": [
+            {
+                "className": "com.facebook.imagepipeline.cache.BufferedDiskCache",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BufferedDiskCache.readFromDiskCache",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "CacheKey"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/cache/BufferedDiskCache.java"
+                            },
+                            "metricsValues": {
+                                "CouplingIntensity": 10.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "CyclomaticComplexity": 4.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MethodLinesOfCode": 22.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "CouplingDispersion": 0.6,
+                                "ChangingClasses": 1.0,
+                                "ExceptionalLOC": 22.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.cache.BufferedDiskCache.readFromDiskCache",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.common.logging.FLog > 5",
+                                    "startingLine": 351,
+                                    "endingLine": 384
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "4de26310e": [
+            {
+                "className": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer.TransformingConsumer",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "TransformingConsumer.doTransform",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/producers/ResizeAndRotateProducer.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 2.0,
+                                "CyclomaticComplexity": 5.0,
+                                "CouplingIntensity": 26.0,
+                                "NumberOfAccessedVariables": 21.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 3.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 36.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 3.0,
+                                "ParameterCount": 2.0,
+                                "CouplingDispersion": 0.5384615384615384,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 2.0,
+                                "MethodLinesOfCode": 36.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer.TransformingConsumer.doTransform",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.producers.ProducerContext > 7",
+                                    "startingLine": 156,
+                                    "endingLine": 218
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.932598927380784",
+                                    "startingLine": 156,
+                                    "endingLine": 218
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 156,
+                                    "endingLine": 218
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "ea311f6c8": [
+            {
+                "className": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer.TransformingConsumer",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "TransformingConsumer.doTransform",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "int"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/producers/ResizeAndRotateProducer.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 1.0,
+                                "CouplingDispersion": 0.5416666666666666,
+                                "NumberOfTryStatements": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfAccessedVariables": 17.0,
+                                "ParameterCount": 2.0,
+                                "CouplingIntensity": 24.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MethodLinesOfCode": 28.0,
+                                "CyclomaticComplexity": 4.0,
+                                "ExceptionalLOC": 28.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 2.0,
+                                "ChangingMethods": 1.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 3.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer.TransformingConsumer.doTransform",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.producers.ProducerContext > 7",
+                                    "startingLine": 173,
+                                    "endingLine": 223
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 173,
+                                    "endingLine": 223
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "0ce993fde": [
+            {
+                "className": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer.TransformingConsumer",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "TransformingConsumer.doTransform",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "int",
+                                "ImageTranscoder"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/producers/ResizeAndRotateProducer.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 5.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 18.0,
+                                "NumberOfFinallyStatements": 3.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "MaxCallChain": 2.0,
+                                "ExceptionalLOC": 30.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfTryStatements": 3.0,
+                                "ChangingMethods": 1.0,
+                                "CouplingIntensity": 24.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MethodLinesOfCode": 30.0,
+                                "MaxNesting": 2.0,
+                                "CouplingDispersion": 0.5416666666666666,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingClasses": 1.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer.TransformingConsumer.doTransform",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.imagepipeline.producers.ProducerContext > 7",
+                                    "startingLine": 214,
+                                    "endingLine": 273
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 214,
+                                    "endingLine": 273
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "com.facebook.imagepipeline.producers.ResizeAndRotateProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "9977d44e": [
+            {
+                "className": "com.facebook.imagepipeline.producers.LocalVideoThumbnailProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "daf6aa8a2": [
+            {
+                "className": "com.facebook.imagepipeline.producers.LocalVideoThumbnailProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "1dd0ccd4": [
+            {
+                "className": "com.facebook.imagepipeline.producers.LocalVideoThumbnailProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "81334f10": [
+            {
+                "className": "com.facebook.imagepipeline.producers.LocalExifThumbnailProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "f1e1f24de": [
+            {
+                "className": "com.facebook.imagepipeline.producers.HttpUrlConnectionNetworkFetcher",
+                "exceptionalChanges": []
+            }
+        ],
+        "f43d59906": [
+            {
+                "className": "com.facebook.imagepipeline.producers.DecodeProducer.ProgressiveDecoder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "com.facebook.imagepipeline.producers.DecodeProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "0de3d2c23": [
+            {
+                "className": "com.facebook.imagepipeline.producers.DecodeProducer.ProgressiveDecoder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "com.facebook.imagepipeline.producers.DecodeProducer",
+                "exceptionalChanges": []
+            }
+        ],
+        "e7448a768": [
+            {
+                "className": "com.facebook.common.util.UriUtil",
+                "exceptionalChanges": []
+            }
+        ],
+        "7a0fdef83": [
+            {
+                "className": "com.facebook.common.util.UriUtil",
+                "exceptionalChanges": []
+            }
+        ],
+        "5d9aa69e7": [
+            {
+                "className": "com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher",
+                "exceptionalChanges": []
+            }
+        ],
+        "1836a57c7": [
+            {
+                "className": "com.facebook.imagepipeline.animated.factory.AnimatedFactoryProvider",
+                "exceptionalChanges": []
+            }
+        ],
+        "8922dd729": [
+            {
+                "className": "com.facebook.imagepipeline.animated.factory.AnimatedFactoryProvider",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "AnimatedFactoryProvider.getAnimatedFactory",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "PlatformBitmapFactory",
+                                "ExecutorSupplier",
+                                "CountingMemoryCache<CacheKey,CloseableImage>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline-base/src/main/java/com/facebook/imagepipeline/animated/factory/AnimatedFactoryProvider.java"
+                            },
+                            "metricsValues": {
+                                "CouplingDispersion": 0.0,
+                                "NumberOfAccessedVariables": 14.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 2.0,
+                                "ChangingClasses": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 3.0,
+                                "MethodLinesOfCode": 32.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingIntensity": 0.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "CyclomaticComplexity": 7.0,
+                                "NumberOfTryStatements": 3.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 96.0,
+                                "NumberOfDummyExceptionHandlers": 3.0,
+                                "MaxCallChain": 1.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.animated.factory.AnimatedFactoryProvider.getAnimatedFactory",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.9597709377237",
+                                    "startingLine": 25,
+                                    "endingLine": 79
+                                }
+                            ],
+                            "kind": "public static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "11c513a63": [
+            {
+                "className": "com.facebook.cache.disk.DiskStorageCache",
+                "exceptionalChanges": []
+            }
+        ],
+        "0df51c559": [
+            {
+                "className": "com.facebook.fresco.samples.showcase.settings.SettingsFragment.UriOverrideDialog",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "UriOverrideDialog.onClick",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "DialogInterface",
+                                "int"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "samples/showcase/src/main/java/com/facebook/fresco/samples/showcase/settings/SettingsFragment.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 12.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingDispersion": 1.0,
+                                "ExceptionalLOC": 12.0,
+                                "CouplingIntensity": 1.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 5.0,
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 4.0
+                            },
+                            "fullyQualifiedName": "com.facebook.fresco.samples.showcase.settings.SettingsFragment.UriOverrideDialog.onClick",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 202,
+                                    "endingLine": 221
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "d5a49eda5": [
+            {
+                "className": "com.facebook.animated.giflite.GifDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "GifDecoder.decode",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "int",
+                                "QualityInfo",
+                                "ImageDecodeOptions"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "animated-gif-lite/src/main/java/com/facebook/animated/giflite/GifDecoder.java"
+                            },
+                            "metricsValues": {
+                                "CouplingIntensity": 8.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "CouplingDispersion": 0.5,
+                                "ChangingMethods": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "MaxNesting": 1.0,
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "NumberOfAccessedVariables": 16.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 1.0,
+                                "ExceptionalLOC": 20.0,
+                                "ParameterCount": 4.0,
+                                "MethodLinesOfCode": 20.0
+                            },
+                            "fullyQualifiedName": "com.facebook.animated.giflite.GifDecoder.decode",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.animated.giflite.decoder.GifMetadataDecoder > 4",
+                                    "startingLine": 30,
+                                    "endingLine": 72
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9500341296928309",
+                                    "startingLine": 30,
+                                    "endingLine": 72
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "027f95d68": [
+            {
+                "className": "com.facebook.animated.giflite.GifDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "GifDecoder.decode",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "int",
+                                "QualityInfo",
+                                "ImageDecodeOptions"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "animated-gif-lite/src/main/java/com/facebook/animated/giflite/GifDecoder.java"
+                            },
+                            "metricsValues": {
+                                "MaxNesting": 1.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "CyclomaticComplexity": 4.0,
+                                "MethodLinesOfCode": 20.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfAccessedVariables": 16.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingClasses": 0.0,
+                                "CouplingIntensity": 9.0,
+                                "ExceptionalLOC": 20.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "ParameterCount": 4.0,
+                                "CouplingDispersion": 0.4444444444444444,
+                                "MaxCallChain": 2.0
+                            },
+                            "fullyQualifiedName": "com.facebook.animated.giflite.GifDecoder.decode",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.animated.giflite.decoder.GifMetadataDecoder > 5",
+                                    "startingLine": 29,
+                                    "endingLine": 71
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9512392241379343",
+                                    "startingLine": 29,
+                                    "endingLine": 71
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "f8991e129": [
+            {
+                "className": "com.facebook.imagepipeline.platform.DefaultDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "DefaultDecoder.decodeFromStream",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "InputStream",
+                                "BitmapFactory.Options",
+                                "Rect",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "ChangingMethods": 3.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfFinallyStatements": 2.0,
+                                "MethodLinesOfCode": 63.0,
+                                "CouplingIntensity": 8.0,
+                                "ExceptionalLOC": 63.0,
+                                "CouplingDispersion": 0.875,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 20.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfThrowStatements": 5.0,
+                                "ParameterCount": 4.0,
+                                "NumberOfTryStatements": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 4.0,
+                                "NumberOfAccessedVariables": 22.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeFromStream",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_com.facebook.common.memory.Pool<com.facebook.imagepipeline.memory.Bitmap> > 4",
+                                    "startingLine": 175,
+                                    "endingLine": 288
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.0100860677783725",
+                                    "startingLine": 175,
+                                    "endingLine": 288
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9515868746637945",
+                                    "startingLine": 175,
+                                    "endingLine": 288
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "51efaa75f": [
+            {
+                "className": "com.facebook.imagepipeline.platform.DefaultDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "DefaultDecoder.decodeJPEGFromEncodedImageWithColorSpace",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "int",
+                                "ColorSpace"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingMethods": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "MethodLinesOfCode": 19.0,
+                                "ParameterCount": 5.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 7.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 5.0,
+                                "ExceptionalLOC": 19.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 2.0,
+                                "CouplingDispersion": 0.42857142857142855,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeJPEGFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.961494471978648",
+                                    "startingLine": 119,
+                                    "endingLine": 163
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DefaultDecoder.decodeJPEGFromEncodedImageWithColorSpace",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "int",
+                                "ColorSpace"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingMethods": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "MethodLinesOfCode": 19.0,
+                                "ParameterCount": 5.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 7.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 5.0,
+                                "ExceptionalLOC": 19.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 2.0,
+                                "CouplingDispersion": 0.42857142857142855,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeJPEGFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.961494471978648",
+                                    "startingLine": 119,
+                                    "endingLine": 163
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DefaultDecoder.decodeFromEncodedImageWithColorSpace",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "ColorSpace"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingMethods": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "MethodLinesOfCode": 12.0,
+                                "ParameterCount": 4.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 4.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 3.0,
+                                "ExceptionalLOC": 12.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 2.0,
+                                "CouplingDispersion": 0.5,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.961494471978648",
+                                    "startingLine": 87,
+                                    "endingLine": 117
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DefaultDecoder.decodeFromEncodedImageWithColorSpace",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "ColorSpace"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingMethods": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "MethodLinesOfCode": 12.0,
+                                "ParameterCount": 4.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 4.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 3.0,
+                                "ExceptionalLOC": 12.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 2.0,
+                                "CouplingDispersion": 0.5,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.961494471978648",
+                                    "startingLine": 87,
+                                    "endingLine": 117
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "a7873dc65": [
+            {
+                "className": "com.facebook.imagepipeline.platform.DefaultDecoder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "DefaultDecoder.decodeJPEGFromEncodedImageWithColorSpace",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "int",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 18.0,
+                                "ChangingMethods": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 1.0,
+                                "MethodLinesOfCode": 18.0,
+                                "CouplingIntensity": 7.0,
+                                "CyclomaticComplexity": 5.0,
+                                "CouplingDispersion": 0.42857142857142855,
+                                "ParameterCount": 5.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 11.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeJPEGFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9478799830962151",
+                                    "startingLine": 111,
+                                    "endingLine": 153
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DefaultDecoder.decodeFromEncodedImage",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 11.0,
+                                "ChangingMethods": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 2.0,
+                                "MethodLinesOfCode": 11.0,
+                                "CouplingIntensity": 4.0,
+                                "CyclomaticComplexity": 3.0,
+                                "CouplingDispersion": 0.5,
+                                "ParameterCount": 4.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 7.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9478799830962151",
+                                    "startingLine": 80,
+                                    "endingLine": 109
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DefaultDecoder.decodeFromEncodedImageWithColorSpace",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 11.0,
+                                "ChangingMethods": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 2.0,
+                                "MethodLinesOfCode": 11.0,
+                                "CouplingIntensity": 4.0,
+                                "CyclomaticComplexity": 3.0,
+                                "CouplingDispersion": 0.5,
+                                "ParameterCount": 4.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 7.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9478799830962151",
+                                    "startingLine": 80,
+                                    "endingLine": 109
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DefaultDecoder.decodeJPEGFromEncodedImage",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "int"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 1.0,
+                                "MethodLinesOfCode": 4.0,
+                                "CouplingIntensity": 1.0,
+                                "CyclomaticComplexity": 1.0,
+                                "CouplingDispersion": 1.0,
+                                "ParameterCount": 4.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 4.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeJPEGFromEncodedImage",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9478799830962151",
+                                    "startingLine": 70,
+                                    "endingLine": 78
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "DefaultDecoder.decodeJPEGFromEncodedImage",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "EncodedImage",
+                                "Bitmap.Config",
+                                "Rect",
+                                "int",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "imagepipeline/src/main/java/com/facebook/imagepipeline/platform/DefaultDecoder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ChangingClasses": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 18.0,
+                                "ChangingMethods": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 1.0,
+                                "MethodLinesOfCode": 18.0,
+                                "CouplingIntensity": 7.0,
+                                "CyclomaticComplexity": 5.0,
+                                "CouplingDispersion": 0.42857142857142855,
+                                "ParameterCount": 5.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 11.0
+                            },
+                            "fullyQualifiedName": "com.facebook.imagepipeline.platform.DefaultDecoder.decodeJPEGFromEncodedImageWithColorSpace",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.9478799830962151",
+                                    "startingLine": 111,
+                                    "endingLine": 153
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

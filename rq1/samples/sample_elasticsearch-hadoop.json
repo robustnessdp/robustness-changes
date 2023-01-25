@@ -1,0 +1,2122 @@
+{
+    "elasticsearch-hadoop": {
+        "f3ec04a4": [
+            {
+                "className": "org.elasticsearch.storm.EsBolt",
+                "exceptionalChanges": []
+            }
+        ],
+        "4693f66d": [
+            {
+                "className": "org.elasticsearch.hadoop.mr.ReportingUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "ede0034d": [
+            {
+                "className": "org.elasticsearch.hadoop.mr.HadoopCfgUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "d3575f90": [
+            {
+                "className": "org.elasticsearch.hadoop.util.StringUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "60fff2d0": [
+            {
+                "className": "org.elasticsearch.hadoop.util.StringUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "701a0e73": [
+            {
+                "className": "org.elasticsearch.hadoop.util.StringUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "0654cd6d": [
+            {
+                "className": "org.elasticsearch.hadoop.util.StringUtils",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.elasticsearch.hadoop.rest.QueryBuilder",
+                "exceptionalChanges": []
+            }
+        ],
+        "4e1e6a1e": [
+            {
+                "className": "org.elasticsearch.hadoop.util.IOUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "6c796c5f": [
+            {
+                "className": "org.elasticsearch.hadoop.util.IOUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "621e8637": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.commonshttp.CommonsHttpTransport",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/RestClient.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "MaxNesting": 2.0,
+                                "ChangingMethods": 3.0,
+                                "ExceptionalLOC": 11.0,
+                                "CouplingIntensity": 11.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingDispersion": 0.5454545454545454,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MethodLinesOfCode": 11.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfAccessedVariables": 6.0,
+                                "ParameterCount": 2.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Response > 6",
+                                    "startingLine": 281,
+                                    "endingLine": 304
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 281,
+                                    "endingLine": 304
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.hadoop.util.IOUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "65e06a04": [
+            {
+                "className": "org.elasticsearch.hadoop.util.IOUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "f0fc4c83": [
+            {
+                "className": "org.elasticsearch.hadoop.util.IOUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "00105715": [
+            {
+                "className": "org.elasticsearch.hadoop.util.IOUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "92e98c6f": [
+            {
+                "className": "org.elasticsearch.hadoop.util.IOUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "134d4c59": [
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ScrollReader.readHit",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Parser",
+                                "BytesArray"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 2.0,
+                                "ChangingMethods": 1.0,
+                                "ChangingClasses": 1.0,
+                                "CouplingIntensity": 17.0,
+                                "CyclomaticComplexity": 24.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "NumberOfThrowStatements": 5.0,
+                                "NumberOfAccessedVariables": 31.0,
+                                "ExceptionalLOC": 70.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.5294117647058824,
+                                "MethodLinesOfCode": 70.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 5.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHit",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 4",
+                                    "startingLine": 405,
+                                    "endingLine": 526
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.192138537658056",
+                                    "startingLine": 405,
+                                    "endingLine": 526
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 405,
+                                    "endingLine": 526
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.readHit",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Parser"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ChangingClasses": 1.0,
+                                "CouplingIntensity": 25.0,
+                                "CyclomaticComplexity": 30.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfAccessedVariables": 24.0,
+                                "ExceptionalLOC": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.28,
+                                "MethodLinesOfCode": 79.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 5.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsMap",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.builder.ValueParsingCallback > 9",
+                                    "startingLine": 528,
+                                    "endingLine": 670
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.192138537658056",
+                                    "startingLine": 528,
+                                    "endingLine": 670
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 25.0, CDISP = 0.28, CC > 1.0",
+                                    "startingLine": 528,
+                                    "endingLine": 670
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.readHit",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Parser"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ChangingClasses": 1.0,
+                                "CouplingIntensity": 17.0,
+                                "CyclomaticComplexity": 20.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfAccessedVariables": 26.0,
+                                "ExceptionalLOC": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.35294117647058826,
+                                "MethodLinesOfCode": 76.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 5.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsJson",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.ParsingUtils > 4",
+                                    "startingLine": 688,
+                                    "endingLine": 823
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.192138537658056",
+                                    "startingLine": 688,
+                                    "endingLine": 823
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 17.0, CDISP = 0.35294117647058826, CC > 1.0",
+                                    "startingLine": 688,
+                                    "endingLine": 823
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader.Scroll",
+                "exceptionalChanges": []
+            }
+        ],
+        "cd26933": [
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ScrollReader.read",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "BytesArray"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 59.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "ExceptionalLOC": 0.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 1.0,
+                                "CouplingDispersion": 0.5294117647058824,
+                                "CouplingIntensity": 17.0,
+                                "NumberOfAccessedVariables": 31.0,
+                                "CyclomaticComplexity": 12.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.read",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.util.BytesArray > 15",
+                                    "startingLine": 276,
+                                    "endingLine": 397
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.192331288343562",
+                                    "startingLine": 276,
+                                    "endingLine": 397
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 276,
+                                    "endingLine": 397
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.read",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 75.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 0.0,
+                                "CouplingDispersion": 0.28,
+                                "CouplingIntensity": 25.0,
+                                "NumberOfAccessedVariables": 23.0,
+                                "CyclomaticComplexity": 30.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsMap",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 18",
+                                    "startingLine": 405,
+                                    "endingLine": 543
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.192331288343562",
+                                    "startingLine": 405,
+                                    "endingLine": 543
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 25.0, CDISP = 0.28, CC > 1.0",
+                                    "startingLine": 405,
+                                    "endingLine": 543
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.read",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 76.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ExceptionalLOC": 0.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 0.0,
+                                "CouplingDispersion": 0.35294117647058826,
+                                "CouplingIntensity": 17.0,
+                                "NumberOfAccessedVariables": 26.0,
+                                "CyclomaticComplexity": 20.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsJson",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 27",
+                                    "startingLine": 561,
+                                    "endingLine": 696
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.192331288343562",
+                                    "startingLine": 561,
+                                    "endingLine": 696
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 17.0, CDISP = 0.35294117647058826, CC > 1.0",
+                                    "startingLine": 561,
+                                    "endingLine": 696
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader.Scroll",
+                "exceptionalChanges": []
+            }
+        ],
+        "6066f849": [
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ScrollReader.read",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "BytesArray"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 58.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 30.0,
+                                "ExceptionalLOC": 0.0,
+                                "ParameterCount": 1.0,
+                                "CouplingIntensity": 16.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 5.0,
+                                "CouplingDispersion": 0.5,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "ChangingClasses": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "CyclomaticComplexity": 12.0,
+                                "NumberOfFinallyStatements": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.read",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.util.BytesArray > 15",
+                                    "startingLine": 195,
+                                    "endingLine": 316
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.782008086253368",
+                                    "startingLine": 195,
+                                    "endingLine": 316
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 195,
+                                    "endingLine": 316
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.read",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 66.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 23.0,
+                                "ExceptionalLOC": 0.0,
+                                "ParameterCount": 0.0,
+                                "CouplingIntensity": 24.0,
+                                "MaxCallChain": 3.0,
+                                "MaxNesting": 4.0,
+                                "CouplingDispersion": 0.2916666666666667,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingClasses": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "CyclomaticComplexity": 25.0,
+                                "NumberOfFinallyStatements": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsMap",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 15",
+                                    "startingLine": 324,
+                                    "endingLine": 445
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.782008086253368",
+                                    "startingLine": 324,
+                                    "endingLine": 445
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 24.0, CDISP = 0.2916666666666667, CC > 1.0",
+                                    "startingLine": 324,
+                                    "endingLine": 445
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.read",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 67.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 24.0,
+                                "ExceptionalLOC": 0.0,
+                                "ParameterCount": 0.0,
+                                "CouplingIntensity": 17.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 5.0,
+                                "CouplingDispersion": 0.4117647058823529,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingClasses": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "CyclomaticComplexity": 17.0,
+                                "NumberOfFinallyStatements": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsJson",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 26",
+                                    "startingLine": 447,
+                                    "endingLine": 571
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.782008086253368",
+                                    "startingLine": 447,
+                                    "endingLine": 571
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 17.0, CDISP = 0.4117647058823529, CC > 1.0",
+                                    "startingLine": 447,
+                                    "endingLine": 571
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader.Scroll",
+                "exceptionalChanges": []
+            }
+        ],
+        "df2e6789": [
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ScrollReader.readHit",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Parser",
+                                "BytesArray"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 5.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 70.0,
+                                "ChangingClasses": 1.0,
+                                "ParameterCount": 2.0,
+                                "CouplingDispersion": 0.5294117647058824,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfAccessedVariables": 31.0,
+                                "MaxCallChain": 2.0,
+                                "CyclomaticComplexity": 24.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "MaxNesting": 5.0,
+                                "CouplingIntensity": 17.0,
+                                "MethodLinesOfCode": 70.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHit",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 4",
+                                    "startingLine": 404,
+                                    "endingLine": 525
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.208460896187027",
+                                    "startingLine": 404,
+                                    "endingLine": 525
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 404,
+                                    "endingLine": 525
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.readHit",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Parser"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "ChangingClasses": 1.0,
+                                "ParameterCount": 1.0,
+                                "CouplingDispersion": 0.28,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfAccessedVariables": 24.0,
+                                "MaxCallChain": 3.0,
+                                "CyclomaticComplexity": 30.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "MaxNesting": 5.0,
+                                "CouplingIntensity": 25.0,
+                                "MethodLinesOfCode": 79.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsMap",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 18",
+                                    "startingLine": 527,
+                                    "endingLine": 669
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.208460896187027",
+                                    "startingLine": 527,
+                                    "endingLine": 669
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 25.0, CDISP = 0.28, CC > 1.0",
+                                    "startingLine": 527,
+                                    "endingLine": 669
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "ScrollReader.readHit",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Parser"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/serialization/ScrollReader.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "ChangingClasses": 1.0,
+                                "ParameterCount": 1.0,
+                                "CouplingDispersion": 0.35294117647058826,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfAccessedVariables": 26.0,
+                                "MaxCallChain": 2.0,
+                                "CyclomaticComplexity": 20.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "MaxNesting": 5.0,
+                                "CouplingIntensity": 17.0,
+                                "MethodLinesOfCode": 76.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.serialization.ScrollReader.readHitAsJson",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.serialization.Parser > 27",
+                                    "startingLine": 687,
+                                    "endingLine": 822
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.208460896187027",
+                                    "startingLine": 687,
+                                    "endingLine": 822
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 17.0, CDISP = 0.35294117647058826, CC > 1.0",
+                                    "startingLine": 687,
+                                    "endingLine": 822
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.hadoop.serialization.ScrollReader.Scroll",
+                "exceptionalChanges": []
+            }
+        ],
+        "fdc7d11d": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestRepository",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestRepository.delete",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/RestRepository.java"
+                            },
+                            "metricsValues": {
+                                "ExceptionalLOC": 56.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 28.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "NumberOfAccessedVariables": 15.0,
+                                "NumberOfTryStatements": 2.0,
+                                "ParameterCount": 0.0,
+                                "CouplingIntensity": 16.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "CyclomaticComplexity": 7.0,
+                                "MaxNesting": 2.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestRepository.delete",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.ScrollQuery > 4",
+                                    "startingLine": 415,
+                                    "endingLine": 469
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 415,
+                                    "endingLine": 469
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "d0e61557": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "04f3c998": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "ed7f175e": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "66082cc": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/RestClient.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingIntensity": 10.0,
+                                "CouplingDispersion": 0.5,
+                                "MaxNesting": 2.0,
+                                "CyclomaticComplexity": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfAccessedVariables": 5.0,
+                                "NumberOfTryStatements": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "MethodLinesOfCode": 9.0,
+                                "MaxCallChain": 3.0,
+                                "ParameterCount": 2.0,
+                                "ChangingMethods": 3.0,
+                                "NumberOfThrowStatements": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Response > 5",
+                                    "startingLine": 275,
+                                    "endingLine": 293
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 275,
+                                    "endingLine": 293
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.hadoop.rest.NetworkClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NetworkClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/NetworkClient.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "CouplingDispersion": 0.625,
+                                "MaxNesting": 3.0,
+                                "CyclomaticComplexity": 6.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ExceptionalLOC": 20.0,
+                                "MethodLinesOfCode": 20.0,
+                                "MaxCallChain": 3.0,
+                                "ParameterCount": 1.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfThrowStatements": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.NetworkClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Request > 5",
+                                    "startingLine": 71,
+                                    "endingLine": 102
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.hadoop.rest.QueryBuilder",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestRepository",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestRepository.close",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/RestRepository.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingIntensity": 6.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "MaxNesting": 3.0,
+                                "CyclomaticComplexity": 9.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 7.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfAccessedVariables": 8.0,
+                                "NumberOfTryStatements": 0.0,
+                                "ExceptionalLOC": 0.0,
+                                "MethodLinesOfCode": 17.0,
+                                "MaxCallChain": 2.0,
+                                "ParameterCount": 0.0,
+                                "ChangingMethods": 10.0,
+                                "NumberOfThrowStatements": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestRepository.close",
+                            "smells": [
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 181,
+                                    "endingLine": 212
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "6646714": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.ErrorUtils",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ErrorUtils.extractInvalidXContent",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/ErrorUtils.java"
+                            },
+                            "metricsValues": {
+                                "CouplingIntensity": 3.0,
+                                "ChangingClasses": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 22.0,
+                                "ChangingMethods": 2.0,
+                                "MaxNesting": 1.0,
+                                "MethodLinesOfCode": 22.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "MaxCallChain": 2.0,
+                                "CyclomaticComplexity": 7.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.ErrorUtils.extractInvalidXContent",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.util.StringUtils > 5",
+                                    "startingLine": 35,
+                                    "endingLine": 70
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "9ea14c72": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": []
+            }
+        ],
+        "e476aa26": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": []
+            }
+        ],
+        "2f4e3a5d": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": []
+            }
+        ],
+        "aea68241": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": []
+            }
+        ],
+        "874ad5d1": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestClient.touch",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/RestClient.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 5.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 4.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 1.0,
+                                "MaxNesting": 3.0,
+                                "CouplingDispersion": 0.42857142857142855,
+                                "MethodLinesOfCode": 12.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "ChangingClasses": 3.0,
+                                "NumberOfAccessedVariables": 6.0,
+                                "CouplingIntensity": 7.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "ExceptionalLOC": 12.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestClient.touch",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Response > 4",
+                                    "startingLine": 369,
+                                    "endingLine": 391
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "1284ee2c": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/src/main/java/org/elasticsearch/hadoop/rest/RestClient.java"
+                            },
+                            "metricsValues": {
+                                "MaxNesting": 2.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "CouplingDispersion": 0.5,
+                                "CouplingIntensity": 10.0,
+                                "ExceptionalLOC": 11.0,
+                                "MaxCallChain": 3.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MethodLinesOfCode": 11.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 2.0,
+                                "ChangingMethods": 3.0,
+                                "NumberOfAccessedVariables": 6.0,
+                                "ThrownExceptionTypesCount": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Response > 5",
+                                    "startingLine": 249,
+                                    "endingLine": 271
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 249,
+                                    "endingLine": 271
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "7edf46cf": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestClient.retryFailedEntries",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "InputStream",
+                                "TrackingBytesArray"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/RestClient.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 16.0,
+                                "CyclomaticComplexity": 8.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 4.0,
+                                "MaxCallChain": 3.0,
+                                "ExceptionalLOC": 29.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingIntensity": 9.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.4444444444444444,
+                                "MethodLinesOfCode": 29.0,
+                                "ChangingMethods": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestClient.retryFailedEntries",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.util.TrackingBytesArray > 4",
+                                    "startingLine": 159,
+                                    "endingLine": 204
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 9.0, CDISP = 0.4444444444444444, CC > 1.0",
+                                    "startingLine": 159,
+                                    "endingLine": 204
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "129854da": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.RestClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "RestClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/src/main/java/org/elasticsearch/hadoop/rest/RestClient.java"
+                            },
+                            "metricsValues": {
+                                "CouplingIntensity": 10.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 11.0,
+                                "MethodLinesOfCode": 11.0,
+                                "ParameterCount": 2.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingMethods": 3.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfAccessedVariables": 6.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "CyclomaticComplexity": 4.0,
+                                "CouplingDispersion": 0.5,
+                                "ThrownExceptionTypesCount": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.RestClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Response > 5",
+                                    "startingLine": 220,
+                                    "endingLine": 241
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 220,
+                                    "endingLine": 241
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "0625e1ca": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.InitializationUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "f0723e41": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.InitializationUtils",
+                "exceptionalChanges": []
+            }
+        ],
+        "d624e0ee": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.NetworkClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NetworkClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/NetworkClient.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 31.0,
+                                "CouplingDispersion": 0.625,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 10.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxNesting": 3.0,
+                                "ExceptionalLOC": 31.0,
+                                "NumberOfThrowStatements": 5.0,
+                                "ChangingClasses": 4.0,
+                                "ChangingMethods": 16.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfAccessedVariables": 15.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.NetworkClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Request > 5",
+                                    "startingLine": 107,
+                                    "endingLine": 166
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.531823899371058",
+                                    "startingLine": 107,
+                                    "endingLine": 166
+                                },
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 107,
+                                    "endingLine": 166
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "NetworkClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/NetworkClient.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 31.0,
+                                "CouplingDispersion": 0.625,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 10.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxNesting": 3.0,
+                                "ExceptionalLOC": 31.0,
+                                "NumberOfThrowStatements": 5.0,
+                                "ChangingClasses": 4.0,
+                                "ChangingMethods": 16.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfAccessedVariables": 15.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.NetworkClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Request > 5",
+                                    "startingLine": 107,
+                                    "endingLine": 166
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.531823899371058",
+                                    "startingLine": 107,
+                                    "endingLine": 166
+                                },
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 107,
+                                    "endingLine": 166
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "8c88f29": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.NetworkClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NetworkClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/NetworkClient.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingClasses": 1.0,
+                                "MaxNesting": 3.0,
+                                "CyclomaticComplexity": 9.0,
+                                "MaxCallChain": 3.0,
+                                "ChangingMethods": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 27.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ParameterCount": 1.0,
+                                "CouplingDispersion": 0.625,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfThrowStatements": 4.0,
+                                "ExceptionalLOC": 27.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.NetworkClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Request > 5",
+                                    "startingLine": 95,
+                                    "endingLine": 148
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "439805ad": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.NetworkClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NetworkClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/NetworkClient.java"
+                            },
+                            "metricsValues": {
+                                "CouplingDispersion": 0.625,
+                                "MethodLinesOfCode": 27.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 9.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "ChangingClasses": 1.0,
+                                "ExceptionalLOC": 27.0,
+                                "MaxNesting": 3.0,
+                                "NumberOfThrowStatements": 4.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CouplingIntensity": 8.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.NetworkClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Request > 5",
+                                    "startingLine": 95,
+                                    "endingLine": 148
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "c916e5e3": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.NetworkClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NetworkClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/src/main/java/org/elasticsearch/hadoop/rest/NetworkClient.java"
+                            },
+                            "metricsValues": {
+                                "MaxNesting": 3.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "MethodLinesOfCode": 17.0,
+                                "ChangingMethods": 1.0,
+                                "MaxCallChain": 4.0,
+                                "ExceptionalLOC": 17.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CyclomaticComplexity": 6.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfAccessedVariables": 8.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "CouplingIntensity": 6.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.NetworkClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Request > 7",
+                                    "startingLine": 62,
+                                    "endingLine": 88
+                                },
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 62,
+                                    "endingLine": 88
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "295e14c5": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.NetworkClient",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "NetworkClient.execute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/src/main/java/org/elasticsearch/hadoop/rest/NetworkClient.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 12.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ExceptionalLOC": 20.0,
+                                "MaxCallChain": 3.0,
+                                "MethodLinesOfCode": 20.0,
+                                "CouplingDispersion": 0.625,
+                                "ParameterCount": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "MaxNesting": 3.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "CyclomaticComplexity": 6.0,
+                                "NumberOfTryStatements": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.NetworkClient.execute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.Request > 5",
+                                    "startingLine": 73,
+                                    "endingLine": 104
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "56582fd4": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.commonshttp.SSLSocketFactory",
+                "exceptionalChanges": []
+            }
+        ],
+        "995ac2de": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.commonshttp.CommonsHttpTransport",
+                "exceptionalChanges": []
+            }
+        ],
+        "82f3646f": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.commonshttp.CommonsHttpTransport",
+                "exceptionalChanges": []
+            }
+        ],
+        "8ac7161d": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.commonshttp.CommonsHttpTransport",
+                "exceptionalChanges": []
+            }
+        ],
+        "2a047a3": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.commonshttp.CommonsHttpTransport",
+                "exceptionalChanges": []
+            }
+        ],
+        "86a0a9c6": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.QueryBuilder",
+                "exceptionalChanges": []
+            }
+        ],
+        "03c05614": [
+            {
+                "className": "org.elasticsearch.plugin.hadoop.hdfs.HdfsPlugin",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "HdfsPlugin.detectLibFolder",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/repository-hdfs/src/main/java/org/elasticsearch/plugin/hadoop/hdfs/HdfsPlugin.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 4.0,
+                                "CouplingDispersion": 0.0,
+                                "NumberOfAccessedVariables": 5.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ExceptionalLOC": 0.0,
+                                "MaxNesting": 1.0,
+                                "ParameterCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 17.0,
+                                "CouplingIntensity": 0.0,
+                                "CyclomaticComplexity": 5.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfThrowStatements": 1.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.plugin.hadoop.hdfs.HdfsPlugin.detectLibFolder",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 73,
+                                    "endingLine": 110
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "org.elasticsearch.repositories.hdfs.HdfsRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "eae94fd5": [
+            {
+                "className": "org.elasticsearch.plugin.hadoop.hdfs.HdfsPlugin",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "HdfsPlugin.detectLibFolder",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/repository-hdfs/src/main/java/org/elasticsearch/plugin/hadoop/hdfs/HdfsPlugin.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 6.0,
+                                "ChangingMethods": 1.0,
+                                "ExceptionalLOC": 21.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxCallChain": 4.0,
+                                "ChangingClasses": 1.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 6.0,
+                                "MethodLinesOfCode": 21.0,
+                                "CouplingIntensity": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 1.0,
+                                "CouplingDispersion": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.plugin.hadoop.hdfs.HdfsPlugin.detectLibFolder",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 79,
+                                    "endingLine": 121
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "457f3319": [
+            {
+                "className": "org.elasticsearch.plugin.hadoop.hdfs.HdfsPlugin",
+                "exceptionalChanges": []
+            }
+        ],
+        "984a7f64": [
+            {
+                "className": "org.elasticsearch.plugin.hadoop.hdfs.HdfsPlugin",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.elasticsearch.repositories.hdfs.HdfsRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "ce4df55a": [
+            {
+                "className": "org.elasticsearch.repositories.hdfs.HdfsRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "08042648": [
+            {
+                "className": "org.elasticsearch.repositories.hdfs.HdfsRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "94909410": [
+            {
+                "className": "org.elasticsearch.repositories.hdfs.HdfsRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "84433628": [
+            {
+                "className": "org.elasticsearch.repositories.hdfs.HdfsRepository",
+                "exceptionalChanges": []
+            }
+        ],
+        "30401d16": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.bulk.BulkProcessor",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BulkProcessor.tryFlush",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/bulk/BulkProcessor.java"
+                            },
+                            "metricsValues": {
+                                "MaxNesting": 10.0,
+                                "ExceptionalLOC": 120.0,
+                                "ChangingMethods": 22.0,
+                                "NumberOfAccessedVariables": 62.0,
+                                "MethodLinesOfCode": 120.0,
+                                "CouplingDispersion": 0.43333333333333335,
+                                "CouplingIntensity": 30.0,
+                                "ChangingClasses": 3.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfThrowStatements": 3.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 35.0,
+                                "MaxCallChain": 3.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.bulk.BulkProcessor.tryFlush",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.rest.RestClient.BulkActionResponse > 9",
+                                    "startingLine": 150,
+                                    "endingLine": 382
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.186552217453518",
+                                    "startingLine": 150,
+                                    "endingLine": 382
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 30.0, CDISP = 0.43333333333333335, CC > 1.0",
+                                    "startingLine": 150,
+                                    "endingLine": 382
+                                },
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 150,
+                                    "endingLine": 382
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 38.7565483267717, CC > 4.243884725477448, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 150,
+                                    "endingLine": 382
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "2d5fe478": [
+            {
+                "className": "org.elasticsearch.hadoop.rest.bulk.BulkProcessor",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BulkProcessor.tryFlush",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/bulk/BulkProcessor.java"
+                            },
+                            "metricsValues": {
+                                "ParameterCount": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 3.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 10.0,
+                                "ExceptionalLOC": 127.0,
+                                "CyclomaticComplexity": 35.0,
+                                "MaxCallChain": 3.0,
+                                "CouplingIntensity": 32.0,
+                                "ChangingMethods": 22.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfThrowStatements": 3.0,
+                                "CouplingDispersion": 0.40625,
+                                "MethodLinesOfCode": 127.0,
+                                "NumberOfAccessedVariables": 64.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.bulk.BulkProcessor.tryFlush",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_org.elasticsearch.hadoop.util.TrackingBytesArray > 14",
+                                    "startingLine": 150,
+                                    "endingLine": 396
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 6.259095634095629",
+                                    "startingLine": 150,
+                                    "endingLine": 396
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 32.0, CDISP = 0.40625, CC > 1.0",
+                                    "startingLine": 150,
+                                    "endingLine": 396
+                                },
+                                {
+                                    "name": "ShotgunSurgery",
+                                    "reason": "CM > 8.0, CC > 6.0",
+                                    "startingLine": 150,
+                                    "endingLine": 396
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 37.859341848058875, CC > 4.231031685490224, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 150,
+                                    "endingLine": 396
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "BulkProcessor.initFlushOperation",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String",
+                                "boolean",
+                                "long",
+                                "long"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/bulk/BulkProcessor.java"
+                            },
+                            "metricsValues": {
+                                "ParameterCount": 4.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 3.0,
+                                "ExceptionalLOC": 11.0,
+                                "CyclomaticComplexity": 6.0,
+                                "MaxCallChain": 2.0,
+                                "CouplingIntensity": 3.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "CouplingDispersion": 1.0,
+                                "MethodLinesOfCode": 11.0,
+                                "NumberOfAccessedVariables": 7.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.bulk.BulkProcessor.initFlushOperation",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.7707900207900226",
+                                    "startingLine": 442,
+                                    "endingLine": 462
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    },
+                    {
+                        "changedMethod": "BulkProcessor.initFlushOperation",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String",
+                                "boolean",
+                                "long",
+                                "long"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/main/java/org/elasticsearch/hadoop/rest/bulk/BulkProcessor.java"
+                            },
+                            "metricsValues": {
+                                "ParameterCount": 4.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 3.0,
+                                "ExceptionalLOC": 11.0,
+                                "CyclomaticComplexity": 6.0,
+                                "MaxCallChain": 2.0,
+                                "CouplingIntensity": 3.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "CouplingDispersion": 1.0,
+                                "MethodLinesOfCode": 11.0,
+                                "NumberOfAccessedVariables": 7.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.rest.bulk.BulkProcessor.initFlushOperation",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.7707900207900226",
+                                    "startingLine": 442,
+                                    "endingLine": 462
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "5290c99a": [
+            {
+                "className": "org.elasticsearch.hadoop.script.GroovyScriptEngineService.GroovyScript",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.elasticsearch.hadoop.script.GroovyScriptEngineService",
+                "exceptionalChanges": []
+            }
+        ],
+        "ad3651d": [
+            {
+                "className": "org.elasticsearch.hadoop.script.GroovyScriptEngineService.GroovyScript",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "org.elasticsearch.hadoop.script.GroovyScriptEngineService",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "GroovyScriptEngineService.compile",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String",
+                                "String",
+                                "Map<String,String>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "elasticsearch-hadoop/mr/src/itest/java/org/elasticsearch/hadoop/script/GroovyScriptEngineService.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 3.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "CouplingIntensity": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingMethods": 0.0,
+                                "MaxCallChain": 4.0,
+                                "ExceptionalLOC": 21.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "MethodLinesOfCode": 21.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MaxNesting": 2.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "org.elasticsearch.hadoop.script.GroovyScriptEngineService.compile",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 140,
+                                    "endingLine": 173
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "0a7ceea1": [
+            {
+                "className": "org.elasticsearch.hadoop.hdfs.blobstore.HdfsImmutableBlobContainer",
+                "exceptionalChanges": []
+            }
+        ]
+    }
+}

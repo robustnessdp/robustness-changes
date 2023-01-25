@@ -1,0 +1,2421 @@
+{
+    "RxJava": {
+        "0263e3d44": [
+            {
+                "className": "io.reactivex.internal.subscribers.SubscriptionLambdaSubscriber",
+                "exceptionalChanges": []
+            }
+        ],
+        "000a174d8": [
+            {
+                "className": "io.reactivex.internal.operators.OperatorDoOnEach",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.OperatorDoOnEach.DoOnEachSubscriber",
+                "exceptionalChanges": []
+            }
+        ],
+        "5ff690c71": [
+            {
+                "className": "io.reactivex.internal.operators.OperatorDoOnEach",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.OperatorDoOnEach.DoOnEachSubscriber",
+                "exceptionalChanges": []
+            }
+        ],
+        "90c9a430e": [
+            {
+                "className": "io.reactivex.internal.operators.OperatorDoOnEach",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.OperatorDoOnEach.DoOnEachSubscriber",
+                "exceptionalChanges": []
+            }
+        ],
+        "03189e87e": [
+            {
+                "className": "io.reactivex.internal.operators.OperatorSwitchMap.SwitchMapSubscriber",
+                "exceptionalChanges": []
+            }
+        ],
+        "6359269a2": [
+            {
+                "className": "io.reactivex.internal.operators.OperatorSwitchMap.SwitchMapSubscriber",
+                "exceptionalChanges": []
+            }
+        ],
+        "869c8554a": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableDoOnLifecycle.SubscriptionLambdaSubscriber",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableDoOnLifecycle",
+                "exceptionalChanges": []
+            }
+        ],
+        "579e90dc2": [
+            {
+                "className": "io.reactivex.internal.observers.LambdaObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableDoOnLifecycle.SubscriptionLambdaSubscriber",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ConcatMapEagerMainObserver.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableConcatMapEager.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 28.0,
+                                "NumberOfAccessedVariables": 38.0,
+                                "ExceptionalLOC": 224.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 5.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingIntensity": 21.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 2.0,
+                                "ParameterCount": 0.0,
+                                "CouplingDispersion": 0.8571428571428571,
+                                "MethodLinesOfCode": 112.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfThrowStatements": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver<T,R> > 9",
+                                    "startingLine": 221,
+                                    "endingLine": 401
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.875978072436014",
+                                    "startingLine": 221,
+                                    "endingLine": 401
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 221,
+                                    "endingLine": 401
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.observers.SafeObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SafeObserver.onNext",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "T"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/observers/SafeObserver.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 7.0,
+                                "NumberOfAccessedVariables": 8.0,
+                                "ExceptionalLOC": 58.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 2.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingIntensity": 5.0,
+                                "NumberOfTryStatements": 3.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 1.0,
+                                "ParameterCount": 1.0,
+                                "CouplingDispersion": 0.8,
+                                "MethodLinesOfCode": 29.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfThrowStatements": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.observers.SafeObserver.onNext",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.observers.SafeObserver<T> > 5",
+                                    "startingLine": 77,
+                                    "endingLine": 113
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableRetryBiPredicate.RetryBiObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableDoOnLifecycle",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager",
+                "exceptionalChanges": []
+            }
+        ],
+        "d9e2df90c": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableDoOnLifecycle.SubscriptionLambdaSubscriber",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableDoOnLifecycle",
+                "exceptionalChanges": []
+            }
+        ],
+        "af3107cd4": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableZip",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableZip.ZipCoordinator",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ZipCoordinator.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableZip.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 3.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "CouplingIntensity": 6.0,
+                                "CyclomaticComplexity": 27.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfAccessedVariables": 39.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MethodLinesOfCode": 102.0,
+                                "ParameterCount": 0.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfTryStatements": 3.0,
+                                "ExceptionalLOC": 306.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableZip.ZipCoordinator.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.util.Exceptions > 13",
+                                    "startingLine": 159,
+                                    "endingLine": 339
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.527217850598138",
+                                    "startingLine": 159,
+                                    "endingLine": 339
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeSubscriber.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 1.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "CouplingIntensity": 6.0,
+                                "CyclomaticComplexity": 40.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfAccessedVariables": 43.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MethodLinesOfCode": 114.0,
+                                "ParameterCount": 0.0,
+                                "MaxNesting": 6.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ExceptionalLOC": 114.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 8",
+                                    "startingLine": 353,
+                                    "endingLine": 524
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.527217850598138",
+                                    "startingLine": 353,
+                                    "endingLine": 524
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 103.30074607427981, CC > 3.804697796528525, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 353,
+                                    "endingLine": 524
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "7a1a4afad": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeSubscriber.onNext",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "T"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 14.0,
+                                "ChangingMethods": 0.0,
+                                "MaxNesting": 3.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "CyclomaticComplexity": 9.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 60.0,
+                                "MethodLinesOfCode": 30.0,
+                                "CouplingDispersion": 0.5,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 2.0,
+                                "ParameterCount": 1.0,
+                                "ChangingClasses": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.onNext",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 5",
+                                    "startingLine": 116,
+                                    "endingLine": 158
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "35281d578": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ConcatMapEagerMainObserver.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableConcatMapEager.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingDispersion": 0.8636363636363636,
+                                "MaxNesting": 5.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 126.0,
+                                "NumberOfAccessedVariables": 40.0,
+                                "NumberOfTryStatements": 3.0,
+                                "CyclomaticComplexity": 31.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 378.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingIntensity": 22.0,
+                                "NumberOfCatchStatements": 3.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.util.AtomicThrowable > 9",
+                                    "startingLine": 225,
+                                    "endingLine": 425
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.045218502836633",
+                                    "startingLine": 225,
+                                    "endingLine": 425
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 225,
+                                    "endingLine": 425
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.observers.SafeObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeSubscriber.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "MaxCallChain": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingDispersion": 0.45454545454545453,
+                                "MaxNesting": 6.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 118.0,
+                                "NumberOfAccessedVariables": 44.0,
+                                "NumberOfTryStatements": 2.0,
+                                "CyclomaticComplexity": 41.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 236.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingIntensity": 11.0,
+                                "NumberOfCatchStatements": 2.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 9",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.045218502836633",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 11.0, CDISP = 0.45454545454545453, CC > 1.0",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 98.79945455307939, CC > 3.7092232587452743, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "d2c9c34e3": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeObserver.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CouplingIntensity": 14.0,
+                                "MaxNesting": 7.0,
+                                "CyclomaticComplexity": 36.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.7142857142857143,
+                                "ChangingClasses": 0.0,
+                                "ParameterCount": 0.0,
+                                "MethodLinesOfCode": 104.0,
+                                "ExceptionalLOC": 104.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 39.0,
+                                "ChangingMethods": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver<T,U> > 10",
+                                    "startingLine": 326,
+                                    "endingLine": 481
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.898514851485288",
+                                    "startingLine": 326,
+                                    "endingLine": 481
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 326,
+                                    "endingLine": 481
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 96.63989727686456, CC > 3.539391474101278, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 326,
+                                    "endingLine": 481
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeSubscriber.onNext",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "T"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfTryStatements": 2.0,
+                                "CouplingIntensity": 8.0,
+                                "MaxNesting": 3.0,
+                                "CyclomaticComplexity": 9.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.625,
+                                "ChangingClasses": 0.0,
+                                "ParameterCount": 1.0,
+                                "MethodLinesOfCode": 30.0,
+                                "ExceptionalLOC": 60.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 15.0,
+                                "ChangingMethods": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.onNext",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 4",
+                                    "startingLine": 116,
+                                    "endingLine": 158
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "MergeSubscriber.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CouplingIntensity": 10.0,
+                                "MaxNesting": 7.0,
+                                "CyclomaticComplexity": 42.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.6,
+                                "ChangingClasses": 0.0,
+                                "ParameterCount": 0.0,
+                                "MethodLinesOfCode": 121.0,
+                                "ExceptionalLOC": 121.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 43.0,
+                                "ChangingMethods": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 9",
+                                    "startingLine": 362,
+                                    "endingLine": 542
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.898514851485288",
+                                    "startingLine": 362,
+                                    "endingLine": 542
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 362,
+                                    "endingLine": 542
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 96.63989727686456, CC > 3.539391474101278, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 362,
+                                    "endingLine": 542
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "cec5dcc68": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindow",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindowTimed",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.flowables.BlockingFlowable",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindowTimed.WindowExactBoundedSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "WindowExactBoundedSubscriber.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableWindowTimed.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 16.0,
+                                "ExceptionalLOC": 60.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfAccessedVariables": 31.0,
+                                "ParameterCount": 0.0,
+                                "CouplingDispersion": 0.7857142857142857,
+                                "ChangingClasses": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingIntensity": 14.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingMethods": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 60.0,
+                                "NumberOfCatchStatements": 1.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableWindowTimed.WindowExactBoundedSubscriber.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.subjects.UnicastSubject<T> > 5",
+                                    "startingLine": 439,
+                                    "endingLine": 533
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.529898532164403",
+                                    "startingLine": 439,
+                                    "endingLine": 533
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 439,
+                                    "endingLine": 533
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeSubscriber.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 41.0,
+                                "ExceptionalLOC": 236.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxNesting": 6.0,
+                                "NumberOfAccessedVariables": 44.0,
+                                "ParameterCount": 0.0,
+                                "CouplingDispersion": 0.45454545454545453,
+                                "ChangingClasses": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingIntensity": 11.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingMethods": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 118.0,
+                                "NumberOfCatchStatements": 2.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 9",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.529898532164403",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 11.0, CDISP = 0.45454545454545453, CC > 1.0",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 106.41630753553103, CC > 3.860671300335569, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 354,
+                                    "endingLine": 530
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "c3a1d911": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.observers.SafeObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SafeObserver.onError",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Throwable"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/observers/SafeObserver.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatements": 3.0,
+                                "CouplingIntensity": 5.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfAccessedVariables": 9.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CyclomaticComplexity": 7.0,
+                                "ParameterCount": 1.0,
+                                "ChangingClasses": 0.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "ExceptionalLOC": 81.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "MethodLinesOfCode": 27.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.observers.SafeObserver.onError",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.plugins.RxJavaPlugins > 4",
+                                    "startingLine": 136,
+                                    "endingLine": 176
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": []
+            }
+        ],
+        "d91ee5a63": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeSubscriber.onNext",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "T"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 2.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfAccessedVariables": 15.0,
+                                "MethodLinesOfCode": 30.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "ExceptionalLOC": 60.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 10.0,
+                                "ParameterCount": 1.0,
+                                "CouplingIntensity": 8.0,
+                                "CouplingDispersion": 0.625,
+                                "ChangingClasses": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 3.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.onNext",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 4",
+                                    "startingLine": 123,
+                                    "endingLine": 166
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "MergeSubscriber.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfAccessedVariables": 45.0,
+                                "MethodLinesOfCode": 124.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ExceptionalLOC": 124.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 44.0,
+                                "ParameterCount": 0.0,
+                                "CouplingIntensity": 10.0,
+                                "CouplingDispersion": 0.6,
+                                "ChangingClasses": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 7.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 9",
+                                    "startingLine": 370,
+                                    "endingLine": 555
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.797304971861815",
+                                    "startingLine": 370,
+                                    "endingLine": 555
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 370,
+                                    "endingLine": 555
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 97.21472791678552, CC > 3.46608625951222, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 370,
+                                    "endingLine": 555
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "2572fa74a": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ConcatMapEagerMainObserver.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableConcatMapEager.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 113.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 5.0,
+                                "ParameterCount": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 30.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 226.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfAccessedVariables": 38.0,
+                                "CouplingDispersion": 0.8125,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingIntensity": 16.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.fuseable.SimpleQueue<T> > 10",
+                                    "startingLine": 233,
+                                    "endingLine": 416
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.958596684070299",
+                                    "startingLine": 233,
+                                    "endingLine": 416
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 233,
+                                    "endingLine": 416
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeSubscriber.onNext",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "T"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 30.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 3.0,
+                                "ParameterCount": 1.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 10.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 60.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfAccessedVariables": 15.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingIntensity": 9.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.onNext",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 4",
+                                    "startingLine": 122,
+                                    "endingLine": 165
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 122,
+                                    "endingLine": 165
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "MergeSubscriber.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 120.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxNesting": 7.0,
+                                "ParameterCount": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 41.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 120.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfAccessedVariables": 43.0,
+                                "CouplingDispersion": 0.6,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingIntensity": 10.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableFlatMap.MergeSubscriber<T,U> > 9",
+                                    "startingLine": 369,
+                                    "endingLine": 548
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.958596684070299",
+                                    "startingLine": 369,
+                                    "endingLine": 548
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 369,
+                                    "endingLine": 548
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 101.37482960197542, CC > 3.4239812999890633, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 369,
+                                    "endingLine": 548
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "7d6529137": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableFromCallable",
+                "exceptionalChanges": []
+            }
+        ],
+        "48516372": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableGenerate.GeneratorSubscription",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "GeneratorSubscription.request",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "long"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableGenerate.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 0.8333333333333334,
+                                "NumberOfAccessedVariables": 10.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MethodLinesOfCode": 38.0,
+                                "CyclomaticComplexity": 10.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingIntensity": 6.0,
+                                "MaxNesting": 3.0,
+                                "ExceptionalLOC": 38.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingMethods": 0.0,
+                                "MaxCallChain": 1.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableGenerate.GeneratorSubscription.request",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.flowable.FlowableGenerate.GeneratorSubscription<T,S> > 4",
+                                    "startingLine": 82,
+                                    "endingLine": 139
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.903088825548707",
+                                    "startingLine": 82,
+                                    "endingLine": 139
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "f59ce0093": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableZip",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableZip.ZipCoordinator",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ZipCoordinator.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableZip.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 98.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxCallChain": 3.0,
+                                "CouplingDispersion": 0.875,
+                                "CyclomaticComplexity": 32.0,
+                                "NumberOfAccessedVariables": 38.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingClasses": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "MaxNesting": 6.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatements": 3.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ExceptionalLOC": 294.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableZip.ZipCoordinator.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.util.AtomicThrowable > 10",
+                                    "startingLine": 165,
+                                    "endingLine": 322
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.054578482371218",
+                                    "startingLine": 165,
+                                    "endingLine": 322
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 97.92469625098505, CC > 3.731400901261383, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 165,
+                                    "endingLine": 322
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "4a614dca0": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableZip",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindow",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableZip.ZipCoordinator",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ZipCoordinator.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableZip.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 0.0,
+                                "CouplingIntensity": 9.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ParameterCount": 0.0,
+                                "ExceptionalLOC": 44.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxNesting": 6.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingDispersion": 0.8888888888888888,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 44.0,
+                                "CyclomaticComplexity": 15.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfAccessedVariables": 22.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableZip.ZipCoordinator.drain",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.820527821112456",
+                                    "startingLine": 136,
+                                    "endingLine": 204
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 136,
+                                    "endingLine": 204
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableZip",
+                "exceptionalChanges": []
+            }
+        ],
+        "d4e8f2973": [
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableZip",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.flowable.FlowableZip.ZipCoordinator",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ZipCoordinator.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/flowable/FlowableZip.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 102.0,
+                                "ChangingClasses": 0.0,
+                                "ChangingMethods": 0.0,
+                                "CouplingDispersion": 0.8571428571428571,
+                                "CouplingIntensity": 7.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfAccessedVariables": 39.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 3.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 306.0,
+                                "CyclomaticComplexity": 27.0,
+                                "MaxNesting": 5.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfFinallyStatements": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.flowable.FlowableZip.ZipCoordinator.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.util.ExceptionHelper > 10",
+                                    "startingLine": 160,
+                                    "endingLine": 340
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.529348040180999",
+                                    "startingLine": 160,
+                                    "endingLine": 340
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "1124dc78c": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindowTimed",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindow",
+                "exceptionalChanges": []
+            }
+        ],
+        "3634c92c": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindowTimed",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindow",
+                "exceptionalChanges": []
+            }
+        ],
+        "855153e78": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableWindow",
+                "exceptionalChanges": []
+            }
+        ],
+        "0094304ae": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager",
+                "exceptionalChanges": []
+            }
+        ],
+        "637978c66": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager",
+                "exceptionalChanges": []
+            }
+        ],
+        "ae2aaa607": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.observers.SafeObserver",
+                "exceptionalChanges": []
+            }
+        ],
+        "57178273a": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ConcatMapEagerMainObserver.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableConcatMapEager.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 38.0,
+                                "ChangingClasses": 0.0,
+                                "ExceptionalLOC": 228.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "ChangingMethods": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 114.0,
+                                "CouplingIntensity": 21.0,
+                                "CouplingDispersion": 0.8571428571428571,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 28.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfCatchStatements": 2.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.fuseable.SimpleQueue<T> > 10",
+                                    "startingLine": 220,
+                                    "endingLine": 402
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.893229016855276",
+                                    "startingLine": 220,
+                                    "endingLine": 402
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 220,
+                                    "endingLine": 402
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager",
+                "exceptionalChanges": []
+            }
+        ],
+        "39e5d91fc": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            }
+        ],
+        "0a07ac180": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMap",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ConcatMapEagerMainObserver.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableConcatMapEager.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 224.0,
+                                "MethodLinesOfCode": 112.0,
+                                "NumberOfTryStatements": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.8571428571428571,
+                                "ChangingMethods": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 28.0,
+                                "CouplingIntensity": 21.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfAccessedVariables": 38.0,
+                                "MaxCallChain": 2.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableConcatMapEager.ConcatMapEagerMainObserver.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.util.AtomicThrowable > 8",
+                                    "startingLine": 220,
+                                    "endingLine": 400
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.790698910443652",
+                                    "startingLine": 220,
+                                    "endingLine": 400
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 220,
+                                    "endingLine": 400
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableConcatMapEager",
+                "exceptionalChanges": []
+            }
+        ],
+        "788873e29": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            }
+        ],
+        "a5df9633c": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MergeObserver.tryEmitScalar",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Callable<? extends U>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "CouplingIntensity": 8.0,
+                                "MaxCallChain": 1.0,
+                                "ChangingClasses": 0.0,
+                                "MaxNesting": 2.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 22.0,
+                                "NumberOfAccessedVariables": 6.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 8.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingDispersion": 0.625,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ExceptionalLOC": 22.0,
+                                "NumberOfTryStatements": 1.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver.tryEmitScalar",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver<T,U> > 4",
+                                    "startingLine": 212,
+                                    "endingLine": 244
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    },
+                    {
+                        "changedMethod": "MergeObserver.drainLoop",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableFlatMap.java"
+                            },
+                            "metricsValues": {
+                                "CouplingIntensity": 12.0,
+                                "MaxCallChain": 2.0,
+                                "ChangingClasses": 0.0,
+                                "MaxNesting": 6.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 100.0,
+                                "NumberOfAccessedVariables": 40.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 35.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ExceptionalLOC": 200.0,
+                                "NumberOfTryStatements": 2.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver.drainLoop",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver<T,U> > 7",
+                                    "startingLine": 325,
+                                    "endingLine": 472
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.849858539094273",
+                                    "startingLine": 325,
+                                    "endingLine": 472
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 325,
+                                    "endingLine": 472
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 93.13824461093549, CC > 3.6189745334071377, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 325,
+                                    "endingLine": 472
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            }
+        ],
+        "3aae12e3c": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap.MergeObserver",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableFlatMap",
+                "exceptionalChanges": []
+            }
+        ],
+        "4a32963dc": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableZip",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableZip.ZipCoordinator",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ZipCoordinator.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/internal/operators/observable/ObservableZip.java"
+                            },
+                            "metricsValues": {
+                                "ChangingMethods": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CyclomaticComplexity": 15.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingIntensity": 9.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingDispersion": 0.8888888888888888,
+                                "MaxNesting": 6.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfAccessedVariables": 22.0,
+                                "ExceptionalLOC": 44.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 44.0,
+                                "ParameterCount": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ThrownExceptionTypesCount": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.internal.operators.observable.ObservableZip.ZipCoordinator.drain",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.929326470750905",
+                                    "startingLine": 147,
+                                    "endingLine": 215
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 147,
+                                    "endingLine": 215
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "7a5320f85": [
+            {
+                "className": "io.reactivex.flowables.BlockingFlowable",
+                "exceptionalChanges": []
+            }
+        ],
+        "2a1cdc2e1": [
+            {
+                "className": "io.reactivex.flowables.BlockingFlowable",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "BlockingFlowable.firstOption",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Publisher<? extends T>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/flowables/BlockingFlowable.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingMethods": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 35.0,
+                                "MaxNesting": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfAccessedVariables": 12.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 6.0,
+                                "ChangingClasses": 0.0,
+                                "CyclomaticComplexity": 3.0,
+                                "ExceptionalLOC": 35.0,
+                                "CouplingDispersion": 0.6666666666666666
+                            },
+                            "fullyQualifiedName": "io.reactivex.flowables.BlockingFlowable.firstOption",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.756229563648454",
+                                    "startingLine": 173,
+                                    "endingLine": 220
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    },
+                    {
+                        "changedMethod": "BlockingFlowable.lastOption",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Publisher<? extends T>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/flowables/BlockingFlowable.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingMethods": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MethodLinesOfCode": 31.0,
+                                "MaxNesting": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 6.0,
+                                "ChangingClasses": 0.0,
+                                "CyclomaticComplexity": 3.0,
+                                "ExceptionalLOC": 31.0,
+                                "CouplingDispersion": 0.6666666666666666
+                            },
+                            "fullyQualifiedName": "io.reactivex.flowables.BlockingFlowable.lastOption",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.756229563648454",
+                                    "startingLine": 242,
+                                    "endingLine": 285
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "6e508e5f6": [
+            {
+                "className": "io.reactivex.flowables.BlockingFlowable",
+                "exceptionalChanges": []
+            }
+        ],
+        "83a3332cd": [
+            {
+                "className": "io.reactivex.observers.SafeObserver",
+                "exceptionalChanges": []
+            }
+        ],
+        "f97c50dad": [
+            {
+                "className": "io.reactivex.observers.SafeObserver",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SafeObserver.onNext",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "T"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/observers/SafeObserver.java"
+                            },
+                            "metricsValues": {
+                                "MaxNesting": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfAccessedVariables": 8.0,
+                                "ParameterCount": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 0.8,
+                                "ChangingMethods": 0.0,
+                                "CyclomaticComplexity": 7.0,
+                                "MethodLinesOfCode": 28.0,
+                                "CouplingIntensity": 5.0,
+                                "ExceptionalLOC": 56.0,
+                                "NumberOfTryStatements": 3.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.observers.SafeObserver.onNext",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.observers.SafeObserver<T> > 5",
+                                    "startingLine": 75,
+                                    "endingLine": 111
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "dd5c6464f": [
+            {
+                "className": "rx.internal.util.PlatformDependent",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "PlatformDependent.resolveAndroidApiVersion",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/rx/internal/util/PlatformDependent.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxCallChain": 4.0,
+                                "CouplingIntensity": 1.0,
+                                "MaxNesting": 1.0,
+                                "ChangingClasses": 0.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfAccessedVariables": 2.0,
+                                "CyclomaticComplexity": 2.0,
+                                "ParameterCount": 0.0,
+                                "MethodLinesOfCode": 5.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 5.0
+                            },
+                            "fullyQualifiedName": "rx.internal.util.PlatformDependent.resolveAndroidApiVersion",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 54,
+                                    "endingLine": 72
+                                }
+                            ],
+                            "kind": "private static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "915e2aca9": [
+            {
+                "className": "rx.internal.operators.OperatorTakeUntil",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "rx.internal.operators.OperatorTake",
+                "exceptionalChanges": []
+            }
+        ],
+        "c28a1c7f0": [
+            {
+                "className": "rx.internal.operators.OperatorDebounceWithTime",
+                "exceptionalChanges": []
+            }
+        ],
+        "085597215": [
+            {
+                "className": "rx.internal.operators.OperatorDebounceWithTime",
+                "exceptionalChanges": []
+            }
+        ],
+        "142f31e58": [
+            {
+                "className": "rx.internal.operators.OperatorAny",
+                "exceptionalChanges": []
+            }
+        ],
+        "e6e413dae": [
+            {
+                "className": "rx.internal.operators.OperatorAny",
+                "exceptionalChanges": []
+            }
+        ],
+        "2d98e3480": [
+            {
+                "className": "rx.internal.operators.OperatorTake",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "rx.internal.operators.OperatorTakeWhile",
+                "exceptionalChanges": []
+            }
+        ],
+        "072ffada8": [
+            {
+                "className": "rx.observables.BlockingObservable",
+                "exceptionalChanges": []
+            }
+        ],
+        "8ad226067": [
+            {
+                "className": "rx.observables.BlockingObservable",
+                "exceptionalChanges": []
+            }
+        ],
+        "f059ded2c": [
+            {
+                "className": "io.reactivex.internal.observers.LambdaObserver",
+                "exceptionalChanges": []
+            }
+        ],
+        "35c29511c": [
+            {
+                "className": "io.reactivex.internal.operators.observable.ObservableRetryBiPredicate.RetryBiObserver",
+                "exceptionalChanges": []
+            }
+        ],
+        "54d92792f": [
+            {
+                "className": "io.reactivex.rxjava3.internal.schedulers.SchedulerPoolFactory",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SchedulerPoolFactory.getBooleanProperty",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "boolean",
+                                "String",
+                                "boolean",
+                                "boolean",
+                                "Function<String,String>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/rxjava3/internal/schedulers/SchedulerPoolFactory.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 10.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ParameterCount": 5.0,
+                                "CouplingIntensity": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 1.0,
+                                "MaxNesting": 2.0,
+                                "ChangingClasses": 1.0,
+                                "ChangingMethods": 4.0,
+                                "ExceptionalLOC": 10.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.rxjava3.internal.schedulers.SchedulerPoolFactory.getBooleanProperty",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.5316994961063803",
+                                    "startingLine": 117,
+                                    "endingLine": 130
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    },
+                    {
+                        "changedMethod": "SchedulerPoolFactory.getIntProperty",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "boolean",
+                                "String",
+                                "int",
+                                "int",
+                                "Function<String,String>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/rxjava3/internal/schedulers/SchedulerPoolFactory.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MethodLinesOfCode": 10.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "MaxCallChain": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ParameterCount": 5.0,
+                                "CouplingIntensity": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingDispersion": 1.0,
+                                "MaxNesting": 2.0,
+                                "ChangingClasses": 1.0,
+                                "ChangingMethods": 4.0,
+                                "ExceptionalLOC": 10.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.rxjava3.internal.schedulers.SchedulerPoolFactory.getIntProperty",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.5316994961063803",
+                                    "startingLine": 102,
+                                    "endingLine": 115
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "333094355": [
+            {
+                "className": "io.reactivex.rxjava3.internal.schedulers.SchedulerPoolFactory",
+                "exceptionalChanges": []
+            }
+        ],
+        "a97d871ee": [
+            {
+                "className": "io.reactivex.rxjava3.internal.schedulers.SchedulerPoolFactory",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SchedulerPoolFactory.getBooleanProperty",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "boolean",
+                                "String",
+                                "boolean",
+                                "boolean",
+                                "Function<String,String>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/rxjava3/internal/schedulers/SchedulerPoolFactory.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 4.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 5.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "CyclomaticComplexity": 4.0,
+                                "MaxCallChain": 1.0,
+                                "MethodLinesOfCode": 11.0,
+                                "ExceptionalLOC": 11.0,
+                                "CouplingIntensity": 2.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.rxjava3.internal.schedulers.SchedulerPoolFactory.getBooleanProperty",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.5222188170395891",
+                                    "startingLine": 119,
+                                    "endingLine": 133
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    },
+                    {
+                        "changedMethod": "SchedulerPoolFactory.getIntProperty",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "boolean",
+                                "String",
+                                "int",
+                                "int",
+                                "Function<String,String>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/rxjava3/internal/schedulers/SchedulerPoolFactory.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 4.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 5.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "CyclomaticComplexity": 4.0,
+                                "MaxCallChain": 1.0,
+                                "MethodLinesOfCode": 11.0,
+                                "ExceptionalLOC": 11.0,
+                                "CouplingIntensity": 2.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.rxjava3.internal.schedulers.SchedulerPoolFactory.getIntProperty",
+                            "smells": [
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.5222188170395891",
+                                    "startingLine": 103,
+                                    "endingLine": 117
+                                }
+                            ],
+                            "kind": "static method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindowBoundarySelector.WindowBoundaryMainSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "WindowBoundaryMainSubscriber.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindowBoundarySelector.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ChangingMethods": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxNesting": 7.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 0.8,
+                                "NumberOfAccessedVariables": 34.0,
+                                "CyclomaticComplexity": 22.0,
+                                "MaxCallChain": 2.0,
+                                "MethodLinesOfCode": 74.0,
+                                "ExceptionalLOC": 74.0,
+                                "CouplingIntensity": 15.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindowBoundarySelector.WindowBoundaryMainSubscriber.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.rxjava3.disposables.CompositeDisposable > 5",
+                                    "startingLine": 207,
+                                    "endingLine": 313
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 9.026750142287598",
+                                    "startingLine": 207,
+                                    "endingLine": 313
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 207,
+                                    "endingLine": 313
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindow",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindowBoundarySelector",
+                "exceptionalChanges": []
+            }
+        ],
+        "f96821f14": [
+            {
+                "className": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindowBoundarySelector",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindowBoundarySelector.WindowBoundaryMainSubscriber",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "WindowBoundaryMainSubscriber.drain",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "RxJava/src/main/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindowBoundarySelector.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingClasses": 0.0,
+                                "CouplingDispersion": 0.8125,
+                                "NumberOfAccessedVariables": 34.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingIntensity": 16.0,
+                                "CyclomaticComplexity": 22.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MethodLinesOfCode": 73.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ExceptionalLOC": 73.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 7.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ParameterCount": 0.0
+                            },
+                            "fullyQualifiedName": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindowBoundarySelector.WindowBoundaryMainSubscriber.drain",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_io.reactivex.rxjava3.disposables.CompositeDisposable > 5",
+                                    "startingLine": 208,
+                                    "endingLine": 313
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 8.97165512212913",
+                                    "startingLine": 208,
+                                    "endingLine": 313
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 208,
+                                    "endingLine": 313
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "io.reactivex.rxjava3.internal.operators.flowable.FlowableWindow",
+                "exceptionalChanges": []
+            }
+        ],
+        "fe71f6a22": [
+            {
+                "className": "io.reactivex.rxjava3.internal.operators.observable.ObservableZip",
+                "exceptionalChanges": []
+            }
+        ]
+    }
+}

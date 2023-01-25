@@ -1,0 +1,1375 @@
+{
+    "apm-agent-java": {
+        "0445d0335": [
+            {
+                "className": "co.elastic.apm.report.IntakeV2ReportingEventHandler",
+                "exceptionalChanges": []
+            }
+        ],
+        "5fcd8a064": [
+            {
+                "className": "co.elastic.apm.report.IntakeV2ReportingEventHandler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "IntakeV2ReportingEventHandler.onEvent",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ReportingEvent",
+                                "long",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/report/IntakeV2ReportingEventHandler.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 9.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingDispersion": 0.4444444444444444,
+                                "NumberOfAccessedVariables": 13.0,
+                                "ParameterCount": 3.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ChangingMethods": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxNesting": 2.0,
+                                "CouplingIntensity": 9.0,
+                                "ExceptionalLOC": 23.0,
+                                "MethodLinesOfCode": 23.0,
+                                "NumberOfDummyExceptionHandlers": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.report.IntakeV2ReportingEventHandler.onEvent",
+                            "smells": [
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 9.0, CDISP = 0.4444444444444444, CC > 1.0",
+                                    "startingLine": 103,
+                                    "endingLine": 133
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "IntakeV2ReportingEventHandler.startRequest",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/report/IntakeV2ReportingEventHandler.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 8.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingDispersion": 0.4444444444444444,
+                                "NumberOfAccessedVariables": 13.0,
+                                "ParameterCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ChangingMethods": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxNesting": 2.0,
+                                "CouplingIntensity": 9.0,
+                                "ExceptionalLOC": 34.0,
+                                "MethodLinesOfCode": 34.0,
+                                "NumberOfDummyExceptionHandlers": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.report.IntakeV2ReportingEventHandler.startRequest",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.report.ReporterConfiguration > 8",
+                                    "startingLine": 160,
+                                    "endingLine": 201
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.072698744769875",
+                                    "startingLine": 160,
+                                    "endingLine": 201
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 9.0, CDISP = 0.4444444444444444, CC > 1.0",
+                                    "startingLine": 160,
+                                    "endingLine": 201
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "006f7ee50": [
+            {
+                "className": "co.elastic.apm.report.IntakeV2ReportingEventHandler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "IntakeV2ReportingEventHandler.onEvent",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ReportingEvent",
+                                "long",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/report/IntakeV2ReportingEventHandler.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 1.0,
+                                "MaxNesting": 2.0,
+                                "CouplingIntensity": 9.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CyclomaticComplexity": 9.0,
+                                "ParameterCount": 3.0,
+                                "ChangingMethods": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MethodLinesOfCode": 23.0,
+                                "CouplingDispersion": 0.4444444444444444,
+                                "NumberOfAccessedVariables": 13.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 23.0,
+                                "NumberOfDummyExceptionHandlers": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.report.IntakeV2ReportingEventHandler.onEvent",
+                            "smells": [
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 9.0, CDISP = 0.4444444444444444, CC > 1.0",
+                                    "startingLine": 123,
+                                    "endingLine": 153
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    },
+                    {
+                        "changedMethod": "IntakeV2ReportingEventHandler.startRequest",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/report/IntakeV2ReportingEventHandler.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 1.0,
+                                "MaxNesting": 2.0,
+                                "CouplingIntensity": 10.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CyclomaticComplexity": 8.0,
+                                "ParameterCount": 0.0,
+                                "ChangingMethods": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MethodLinesOfCode": 34.0,
+                                "CouplingDispersion": 0.6,
+                                "NumberOfAccessedVariables": 14.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ExceptionalLOC": 34.0,
+                                "NumberOfDummyExceptionHandlers": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.report.IntakeV2ReportingEventHandler.startRequest",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.report.ReporterConfiguration > 7",
+                                    "startingLine": 180,
+                                    "endingLine": 221
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.092441266598564",
+                                    "startingLine": 180,
+                                    "endingLine": 221
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 180,
+                                    "endingLine": 221
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "77fc599fd": [
+            {
+                "className": "co.elastic.apm.agent.metrics.builtin.JvmMemoryMetrics",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "JvmMemoryMetrics.bindTo",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "MetricRegistry"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/metrics/builtin/JvmMemoryMetrics.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 56.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MaxNesting": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingMethods": 2.0,
+                                "MethodLinesOfCode": 56.0,
+                                "ChangingClasses": 2.0,
+                                "ParameterCount": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfAccessedVariables": 8.0,
+                                "CouplingIntensity": 2.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "CyclomaticComplexity": 4.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 2.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.metrics.builtin.JvmMemoryMetrics.bindTo",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.agent.metrics.MetricRegistry > 9",
+                                    "startingLine": 49,
+                                    "endingLine": 118
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.713509749303625",
+                                    "startingLine": 49,
+                                    "endingLine": 118
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "d10d713e8": [
+            {
+                "className": "co.elastic.apm.agent.metrics.builtin.SystemMetrics",
+                "exceptionalChanges": []
+            }
+        ],
+        "39e6a418d": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ElasticApmAgent.getAgentBuilder",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ByteBuddy",
+                                "CoreConfiguration"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/bci/ElasticApmAgent.java"
+                            },
+                            "metricsValues": {
+                                "MaxNesting": 2.0,
+                                "MethodLinesOfCode": 13.0,
+                                "ParameterCount": 2.0,
+                                "MaxCallChain": 20.0,
+                                "ExceptionalLOC": 13.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 3.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 3.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "CouplingDispersion": 0.6666666666666666,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.bci.ElasticApmAgent.getAgentBuilder",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 20.0",
+                                    "startingLine": 302,
+                                    "endingLine": 362
+                                }
+                            ],
+                            "kind": "private static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "0c95ed7fa": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": []
+            }
+        ],
+        "e2261a966": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": []
+            }
+        ],
+        "c0d561735": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": []
+            }
+        ],
+        "245ac0658": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": []
+            }
+        ],
+        "df7159e4": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ElasticApmAgent.initInstrumentation",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ElasticApmTracer",
+                                "Instrumentation",
+                                "Iterable<ElasticApmInstrumentation>",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-java/apm-agent-core/src/main/java/co/elastic/apm/agent/bci/ElasticApmAgent.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 37.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 4.0,
+                                "CyclomaticComplexity": 9.0,
+                                "CouplingDispersion": 0.5454545454545454,
+                                "MaxNesting": 3.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "ChangingMethods": 2.0,
+                                "ParameterCount": 4.0,
+                                "CouplingIntensity": 11.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfAccessedVariables": 19.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingClasses": 1.0,
+                                "ExceptionalLOC": 37.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.bci.ElasticApmAgent.initInstrumentation",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.775407639044026",
+                                    "startingLine": 221,
+                                    "endingLine": 272
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.7914898369443856",
+                                    "startingLine": 221,
+                                    "endingLine": 272
+                                },
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 4.0",
+                                    "startingLine": 221,
+                                    "endingLine": 272
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 221,
+                                    "endingLine": 272
+                                }
+                            ],
+                            "kind": "private static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "48f01f8cd": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": []
+            }
+        ],
+        "36ff1f18d": [
+            {
+                "className": "co.elastic.apm.agent.bci.ElasticApmAgent",
+                "exceptionalChanges": []
+            }
+        ],
+        "ee6c990a6": [
+            {
+                "className": "co.elastic.apm.agent.bci.bytebuddy.CustomElementMatchers",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "CustomElementMatchers.readImplementationVersionFromManifest",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ProtectionDomain"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/bci/bytebuddy/CustomElementMatchers.java"
+                            },
+                            "metricsValues": {
+                                "CouplingDispersion": 0.0,
+                                "NumberOfAccessedVariables": 12.0,
+                                "ExceptionalLOC": 32.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "MethodLinesOfCode": 32.0,
+                                "CouplingIntensity": 0.0,
+                                "MaxCallChain": 2.0,
+                                "MaxNesting": 5.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 13.0,
+                                "NumberOfTryStatements": 3.0,
+                                "ParameterCount": 1.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.bci.bytebuddy.CustomElementMatchers.readImplementationVersionFromManifest",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.452554744525548",
+                                    "startingLine": 145,
+                                    "endingLine": 191
+                                }
+                            ],
+                            "kind": "private static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "22cc1e9a7": [
+            {
+                "className": "co.elastic.apm.agent.bci.bytebuddy.CustomElementMatchers",
+                "exceptionalChanges": []
+            }
+        ],
+        "0185dc963": [
+            {
+                "className": "co.elastic.apm.agent.bci.bytebuddy.CustomElementMatchers",
+                "exceptionalChanges": []
+            }
+        ],
+        "1c2332972": [
+            {
+                "className": "co.elastic.apm.agent.bci.bytebuddy.CustomElementMatchers",
+                "exceptionalChanges": []
+            }
+        ],
+        "9dc86f0e1": [
+            {
+                "className": "co.elastic.apm.agent.bci.bytebuddy.CustomElementMatchers",
+                "exceptionalChanges": []
+            }
+        ],
+        "addd23907": [
+            {
+                "className": "co.elastic.apm.agent.bci.AgentMain",
+                "exceptionalChanges": []
+            }
+        ],
+        "c95e5e524": [
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracerBuilder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ElasticApmTracerBuilder.getDefaultConfigurationRegistry",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "List<ConfigurationSource>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/ElasticApmTracerBuilder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingIntensity": 2.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ExceptionalLOC": 10.0,
+                                "CyclomaticComplexity": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxCallChain": 7.0,
+                                "ParameterCount": 1.0,
+                                "MaxNesting": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MethodLinesOfCode": 10.0,
+                                "ChangingMethods": 1.0,
+                                "CouplingDispersion": 0.5,
+                                "NumberOfAccessedVariables": 8.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.impl.ElasticApmTracerBuilder.getDefaultConfigurationRegistry",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 7.0",
+                                    "startingLine": 112,
+                                    "endingLine": 132
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracer",
+                "exceptionalChanges": []
+            }
+        ],
+        "19a6883c": [
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracerBuilder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ElasticApmTracerBuilder.getDefaultConfigurationRegistry",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "List<ConfigurationSource>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/ElasticApmTracerBuilder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfTryStatements": 1.0,
+                                "CyclomaticComplexity": 2.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxNesting": 1.0,
+                                "MaxCallChain": 7.0,
+                                "CouplingDispersion": 1.0,
+                                "CouplingIntensity": 1.0,
+                                "ExceptionalLOC": 8.0,
+                                "MethodLinesOfCode": 8.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfAccessedVariables": 8.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ChangingClasses": 1.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.impl.ElasticApmTracerBuilder.getDefaultConfigurationRegistry",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 7.0",
+                                    "startingLine": 171,
+                                    "endingLine": 192
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracer",
+                "exceptionalChanges": []
+            }
+        ],
+        "f86507304": [
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracerBuilder",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ElasticApmTracerBuilder.getDefaultConfigurationRegistry",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "List<ConfigurationSource>"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/ElasticApmTracerBuilder.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfAccessedVariables": 8.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CouplingDispersion": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CyclomaticComplexity": 2.0,
+                                "ExceptionalLOC": 8.0,
+                                "MaxNesting": 1.0,
+                                "MethodLinesOfCode": 8.0,
+                                "MaxCallChain": 7.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingIntensity": 1.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ParameterCount": 1.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.impl.ElasticApmTracerBuilder.getDefaultConfigurationRegistry",
+                            "smells": [
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 7.0",
+                                    "startingLine": 171,
+                                    "endingLine": 192
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            },
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracer",
+                "exceptionalChanges": []
+            }
+        ],
+        "8aaaf6a87": [
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracer",
+                "exceptionalChanges": []
+            }
+        ],
+        "60279c71a": [
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracer",
+                "exceptionalChanges": []
+            }
+        ],
+        "a7e1c25af": [
+            {
+                "className": "co.elastic.apm.agent.impl.ElasticApmTracer",
+                "exceptionalChanges": []
+            }
+        ],
+        "a275d5781": [
+            {
+                "className": "co.elastic.apm.agent.report.IntakeV2ReportingEventHandler",
+                "exceptionalChanges": []
+            }
+        ],
+        "dc78d6d8": [
+            {
+                "className": "co.elastic.apm.agent.report.IntakeV2ReportingEventHandler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "IntakeV2ReportingEventHandler.startRequest",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/report/IntakeV2ReportingEventHandler.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 7.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 28.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfTryStatements": 0.0,
+                                "NumberOfCatchStatements": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "MaxNesting": 2.0,
+                                "ExceptionalLOC": 0.0,
+                                "NumberOfAccessedVariables": 12.0,
+                                "ChangingMethods": 1.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "MaxCallChain": 3.0,
+                                "ParameterCount": 0.0,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfThrowStatements": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.report.IntakeV2ReportingEventHandler.startRequest",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.agent.report.ReporterConfiguration > 7",
+                                    "startingLine": 213,
+                                    "endingLine": 247
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "96c5ec6c5": [
+            {
+                "className": "co.elastic.apm.agent.report.ApmServerReporter",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "co.elastic.apm.agent.report.IntakeV2ReportingEventHandler",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "co.elastic.apm.agent.report.AbstractIntakeApiHandler",
+                "exceptionalChanges": []
+            }
+        ],
+        "023d63229": [
+            {
+                "className": "co.elastic.apm.agent.report.IntakeV2ReportingEventHandler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "IntakeV2ReportingEventHandler.handleEvent",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ReportingEvent",
+                                "long",
+                                "boolean"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/report/IntakeV2ReportingEventHandler.java"
+                            },
+                            "metricsValues": {
+                                "CouplingDispersion": 0.4444444444444444,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "NumberOfTryStatements": 1.0,
+                                "ExceptionalLOC": 28.0,
+                                "ChangingMethods": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 12.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingIntensity": 9.0,
+                                "ParameterCount": 3.0,
+                                "MethodLinesOfCode": 28.0,
+                                "MaxNesting": 3.0,
+                                "MaxCallChain": 2.0,
+                                "ChangingClasses": 1.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfAccessedVariables": 13.0,
+                                "NumberOfThrowStatements": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.report.IntakeV2ReportingEventHandler.handleEvent",
+                            "smells": [
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 9.0, CDISP = 0.4444444444444444, CC > 1.0",
+                                    "startingLine": 80,
+                                    "endingLine": 118
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "64a6c21d3": [
+            {
+                "className": "co.elastic.apm.agent.report.ApmServerReporter",
+                "exceptionalChanges": []
+            }
+        ],
+        "2e9e3126f": [
+            {
+                "className": "co.elastic.apm.agent.jdbc.helper.JdbcHelper",
+                "exceptionalChanges": []
+            }
+        ],
+        "803e0fed2": [
+            {
+                "className": "co.elastic.apm.agent.jdbc.helper.JdbcHelper",
+                "exceptionalChanges": []
+            }
+        ],
+        "5f3a4f951": [
+            {
+                "className": "co.elastic.apm.agent.jdbc.helper.JdbcHelper",
+                "exceptionalChanges": []
+            }
+        ],
+        "42a99c2d6": [
+            {
+                "className": "co.elastic.apm.agent.jdbc.helper.JdbcHelper",
+                "exceptionalChanges": []
+            }
+        ],
+        "45857cea6": [
+            {
+                "className": "co.elastic.apm.agent.slf4j.Slf4JMdcActivationListener",
+                "exceptionalChanges": []
+            }
+        ],
+        "575d55755": [
+            {
+                "className": "co.elastic.apm.agent.es.restclient.v6_4.ElasticsearchRestClientInstrumentation",
+                "exceptionalChanges": []
+            },
+            {
+                "className": "co.elastic.apm.agent.es.restclient.v6_4.ElasticsearchRestClientInstrumentation.ElasticsearchRestClientAdvice",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "ElasticsearchRestClientAdvice.onBeforeExecute",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "Request",
+                                "Span"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-plugins/apm-es-restclient-plugin/apm-es-restclient-plugin-6_4/src/main/java/co/elastic/apm/agent/es/restclient/v6_4/ElasticsearchRestClientInstrumentation.java"
+                            },
+                            "metricsValues": {
+                                "ChangingClasses": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 1.0,
+                                "MaxCallChain": 8.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CouplingDispersion": 0.625,
+                                "CyclomaticComplexity": 7.0,
+                                "MaxNesting": 4.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "ExceptionalLOC": 21.0,
+                                "MethodLinesOfCode": 21.0,
+                                "CouplingIntensity": 16.0,
+                                "NumberOfAccessedVariables": 10.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingMethods": 0.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.es.restclient.v6_4.ElasticsearchRestClientInstrumentation.ElasticsearchRestClientAdvice.onBeforeExecute",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.agent.impl.transaction.Span > 6",
+                                    "startingLine": 60,
+                                    "endingLine": 91
+                                },
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 8.0",
+                                    "startingLine": 60,
+                                    "endingLine": 91
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 60,
+                                    "endingLine": 91
+                                }
+                            ],
+                            "kind": "private static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "a384d866a": [
+            {
+                "className": "co.elastic.apm.agent.es.restclient.v6_4.ElasticsearchRestClientInstrumentation",
+                "exceptionalChanges": []
+            }
+        ],
+        "f50df6608": [
+            {
+                "className": "co.elastic.apm.agent.util.DependencyInjectingServiceLoader",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "DependencyInjectingServiceLoader.instantiate",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "ClassLoader",
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/util/DependencyInjectingServiceLoader.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 6.0,
+                                "MaxCallChain": 3.0,
+                                "ChangingClasses": 0.0,
+                                "CouplingIntensity": 3.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "MethodLinesOfCode": 20.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfThrowStatements": 2.0,
+                                "ExceptionalLOC": 20.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingDispersion": 0.3333333333333333,
+                                "MaxNesting": 1.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "ChangingMethods": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "NumberOfAccessedVariables": 11.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.util.DependencyInjectingServiceLoader.instantiate",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.agent.util.DependencyInjectingServiceLoader<T> > 4",
+                                    "startingLine": 123,
+                                    "endingLine": 146
+                                }
+                            ],
+                            "kind": "private method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "a739286a2": [
+            {
+                "className": "co.elastic.apm.agent.profiler.SamplingProfiler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SamplingProfiler.processTraces",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-plugins/apm-profiling-plugin/src/main/java/co/elastic/apm/agent/profiler/SamplingProfiler.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 43.0,
+                                "MaxNesting": 4.0,
+                                "NumberOfTryStatements": 2.0,
+                                "MaxCallChain": 2.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "ExceptionalLOC": 43.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "ParameterCount": 0.0,
+                                "ChangingClasses": 3.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfAccessedVariables": 24.0,
+                                "CouplingDispersion": 0.3125,
+                                "ChangingMethods": 3.0,
+                                "CouplingIntensity": 16.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 12.0,
+                                "NumberOfFinallyStatements": 1.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.profiler.SamplingProfiler.processTraces",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.672545561434449",
+                                    "startingLine": 409,
+                                    "endingLine": 470
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 16.0, CDISP = 0.3125, CC > 1.0",
+                                    "startingLine": 409,
+                                    "endingLine": 470
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "59d97f085": [
+            {
+                "className": "co.elastic.apm.agent.profiler.SamplingProfiler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SamplingProfiler.run",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-plugins/apm-profiling-plugin/src/main/java/co/elastic/apm/agent/profiler/SamplingProfiler.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfThrowStatements": 0.0,
+                                "CyclomaticComplexity": 7.0,
+                                "ExceptionalLOC": 64.0,
+                                "CouplingDispersion": 0.5,
+                                "ChangingMethods": 0.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfAccessedVariables": 14.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MethodLinesOfCode": 32.0,
+                                "NumberOfCatchStatements": 2.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfTryStatements": 2.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxCallChain": 3.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingIntensity": 12.0,
+                                "MaxNesting": 2.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.profiler.SamplingProfiler.run",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.agent.profiler.ProfilingConfiguration > 7",
+                                    "startingLine": 331,
+                                    "endingLine": 376
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.743783783783784",
+                                    "startingLine": 331,
+                                    "endingLine": 376
+                                },
+                                {
+                                    "name": "DispersedCoupling",
+                                    "reason": "CINT > 8.0, CDISP > 0.5, CC > 1.0",
+                                    "startingLine": 331,
+                                    "endingLine": 376
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "2688c4523": [
+            {
+                "className": "co.elastic.apm.agent.profiler.SamplingProfiler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "SamplingProfiler.run",
+                        "methodInfo": {
+                            "parametersTypes": [],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-plugins/apm-profiling-plugin/src/main/java/co/elastic/apm/agent/profiler/SamplingProfiler.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfCatchStatements": 3.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ExceptionalLOC": 123.0,
+                                "CyclomaticComplexity": 11.0,
+                                "ChangingClasses": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatements": 3.0,
+                                "MethodLinesOfCode": 41.0,
+                                "ParameterCount": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "CouplingIntensity": 12.0,
+                                "NumberOfAccessedVariables": 17.0,
+                                "CouplingDispersion": 0.3333333333333333,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "MaxCallChain": 3.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "MaxNesting": 3.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.profiler.SamplingProfiler.run",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.agent.profiler.ProfilingConfiguration > 8",
+                                    "startingLine": 335,
+                                    "endingLine": 399
+                                },
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.803567065721962",
+                                    "startingLine": 335,
+                                    "endingLine": 399
+                                },
+                                {
+                                    "name": "IntensiveCoupling",
+                                    "reason": "CINT = 12.0, CDISP = 0.3333333333333333, CC > 1.0",
+                                    "startingLine": 335,
+                                    "endingLine": 399
+                                }
+                            ],
+                            "kind": "public method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "c99e0826f": [
+            {
+                "className": "co.elastic.apm.agent.jdbc.helper.ConnectionMetaData",
+                "exceptionalChanges": []
+            }
+        ],
+        "2d28d0062": [
+            {
+                "className": "co.elastic.apm.agent.jdbc.helper.ConnectionMetaData",
+                "exceptionalChanges": []
+            }
+        ],
+        "3239daaaa": [
+            {
+                "className": "co.elastic.apm.agent.mdc.MdcActivationListener",
+                "exceptionalChanges": []
+            }
+        ],
+        "0e93d3e06": [
+            {
+                "className": "co.elastic.apm.agent.mdc.MdcActivationListener",
+                "exceptionalChanges": []
+            }
+        ],
+        "c5fede1f7": [
+            {
+                "className": "co.elastic.apm.agent.mdc.MdcActivationListener",
+                "exceptionalChanges": []
+            }
+        ],
+        "ed102c0c4": [
+            {
+                "className": "co.elastic.apm.agent.urlconnection.UrlConnectionPropertyAccessor",
+                "exceptionalChanges": []
+            }
+        ],
+        "379519e28": [
+            {
+                "className": "co.elastic.apm.agent.report.AbstractIntakeApiHandler",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "AbstractIntakeApiHandler.startRequest",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-core/src/main/java/co/elastic/apm/agent/report/AbstractIntakeApiHandler.java"
+                            },
+                            "metricsValues": {
+                                "MethodLinesOfCode": 34.0,
+                                "MaxCallChain": 3.0,
+                                "ChangingClasses": 0.0,
+                                "CouplingIntensity": 1.0,
+                                "ThrownExceptionTypesCount": 1.0,
+                                "MaxNesting": 4.0,
+                                "NumberOfCatchStatements": 4.0,
+                                "NumberOfAccessedVariables": 14.0,
+                                "CyclomaticComplexity": 8.0,
+                                "CouplingDispersion": 1.0,
+                                "ParameterCount": 1.0,
+                                "NumberOfThrowStatements": 1.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatements": 4.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfDummyExceptionHandlers": 2.0,
+                                "ExceptionalLOC": 34.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.report.AbstractIntakeApiHandler.startRequest",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.740138267588442",
+                                    "startingLine": 105,
+                                    "endingLine": 149
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "31951f695": [
+            {
+                "className": "co.elastic.apm.agent.log4j2.Log4j2LogShadingHelper",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "Log4j2LogShadingHelper.createAndConfigureAppender",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "AbstractOutputStreamAppender<?>",
+                                "String"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-plugins/apm-log-shader-plugin/apm-log4j2-plugin/src/main/java/co/elastic/apm/agent/log4j2/Log4j2LogShadingHelper.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfTryStatements": 1.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "ExceptionalLOC": 20.0,
+                                "MethodLinesOfCode": 20.0,
+                                "ChangingClasses": 0.0,
+                                "CouplingDispersion": 0.3333333333333333,
+                                "NumberOfThrowStatements": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "CouplingIntensity": 6.0,
+                                "NumberOfAccessedVariables": 11.0,
+                                "MaxNesting": 2.0,
+                                "ParameterCount": 2.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 4.0,
+                                "ChangingMethods": 0.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "MaxCallChain": 7.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.log4j2.Log4j2LogShadingHelper.createAndConfigureAppender",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.agent.log.shader.AbstractLogShadingHelper<co.elastic.apm.agent.log4j2.AbstractOutputStreamAppender<?>> > 5",
+                                    "startingLine": 63,
+                                    "endingLine": 111
+                                },
+                                {
+                                    "name": "MessageChain",
+                                    "reason": "MAX_CALL_CHAIN = 7.0",
+                                    "startingLine": 63,
+                                    "endingLine": 111
+                                }
+                            ],
+                            "kind": "protected method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "cfe60e16d": [
+            {
+                "className": "co.elastic.apm.agent.micrometer.MicrometerMeterRegistrySerializer",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "MicrometerMeterRegistrySerializer.serializeMetricSet",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "List<Tag>",
+                                "List<Meter>",
+                                "long",
+                                "StringBuilder",
+                                "JsonWriter"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-plugins/apm-micrometer-plugin/src/main/java/co/elastic/apm/agent/micrometer/MicrometerMeterRegistrySerializer.java"
+                            },
+                            "metricsValues": {
+                                "CyclomaticComplexity": 17.0,
+                                "NumberOfCatchStatements": 1.0,
+                                "NumberOfTryStatements": 2.0,
+                                "MaxCallChain": 3.0,
+                                "ExceptionalLOC": 50.0,
+                                "ParameterCount": 5.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "ChangingClasses": 1.0,
+                                "ChangingMethods": 1.0,
+                                "CouplingIntensity": 6.0,
+                                "MethodLinesOfCode": 50.0,
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "CouplingDispersion": 0.5,
+                                "NumberOfAccessedVariables": 23.0,
+                                "MaxNesting": 8.0,
+                                "NumberOfFinallyStatements": 1.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 1.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.agent.micrometer.MicrometerMeterRegistrySerializer.serializeMetricSet",
+                            "smells": [
+                                {
+                                    "name": "LongMethod",
+                                    "reason": "MLOC > 5.803182374541007",
+                                    "startingLine": 101,
+                                    "endingLine": 165
+                                },
+                                {
+                                    "name": "LongParameterList",
+                                    "reason": "PARAMETER_COUNT > 0.7735618115055127",
+                                    "startingLine": 101,
+                                    "endingLine": 165
+                                },
+                                {
+                                    "name": "BrainMethod",
+                                    "reason": "MLOC > 41.52036174180363, CC > 3.3636304924948246, MAX_NESTING > 5.0, NOAV > 6.0",
+                                    "startingLine": 101,
+                                    "endingLine": 165
+                                }
+                            ],
+                            "kind": "method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "c401e5f56": [
+            {
+                "className": "co.elastic.apm.attach.AgentAttacher",
+                "exceptionalChanges": [
+                    {
+                        "changedMethod": "AgentAttacher.main",
+                        "methodInfo": {
+                            "parametersTypes": [
+                                "String[]"
+                            ],
+                            "sourceFile": {
+                                "fileRelativePath": "apm-agent-java/apm-agent-attach-cli/src/main/java/co/elastic/apm/attach/AgentAttacher.java"
+                            },
+                            "metricsValues": {
+                                "NumberOfDummyExceptionHandlers": 0.0,
+                                "NumberOfThrowStatements": 0.0,
+                                "ParameterCount": 1.0,
+                                "CouplingIntensity": 8.0,
+                                "NumberOfTryStatementsWithNoCatchAndFinally": 0.0,
+                                "CyclomaticComplexity": 8.0,
+                                "NumberOfFinallyStatements": 0.0,
+                                "NumberOfAccessedVariables": 7.0,
+                                "ChangingClasses": 0.0,
+                                "ThrownExceptionTypesCount": 0.0,
+                                "MaxNesting": 2.0,
+                                "ExceptionalLOC": 84.0,
+                                "MaxCallChain": 2.0,
+                                "NumberOfCatchStatements": 3.0,
+                                "CouplingDispersion": 0.25,
+                                "ChangingMethods": 0.0,
+                                "MethodLinesOfCode": 28.0,
+                                "NumberOfTryStatements": 3.0
+                            },
+                            "fullyQualifiedName": "co.elastic.apm.attach.AgentAttacher.main",
+                            "smells": [
+                                {
+                                    "name": "FeatureEnvy",
+                                    "reason": "CALLS_TO_co.elastic.apm.attach.AgentAttacher.Arguments > 6",
+                                    "startingLine": 107,
+                                    "endingLine": 147
+                                }
+                            ],
+                            "kind": "public static method"
+                        }
+                    }
+                ]
+            }
+        ],
+        "4ec14dd1a": [
+            {
+                "className": "co.elastic.apm.attach.GetAgentProperties",
+                "exceptionalChanges": []
+            }
+        ]
+    }
+}
