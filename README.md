@@ -62,7 +62,7 @@ In parenthesis we show the smell name present in PMD.
 
 ## Python script to collect changes in the catch blocks
 
-We hide the source code due to double blind review policy.
+Our Python tool used to collect the robustness changes is available at https://github.com/robustnessdp/tool
 
 <hr>
 
